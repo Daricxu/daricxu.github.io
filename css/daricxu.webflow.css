@@ -2272,6 +2272,7 @@
   margin-bottom: 50px;
 }
 
+                                                     /*Hompage Font style*/
 .works-text {
   position: static;
   left: 0px;
@@ -2298,7 +2299,6 @@
   font-size: 18px;
   font-weight: 300;
 }
-
 .works-text.sub._3r {
   position: relative;
   z-index: 22;
@@ -2307,7 +2307,7 @@
   padding-bottom: 0px;
   color: #000;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .works-text.sub._3r:hover {
@@ -5596,7 +5596,7 @@
   padding-right: 8px;
   padding-left: 8px;
 }
-
+                                               /*Practice and illustration*/
 .image-94 {
   padding: 3px;
   -webkit-transform: scale(1);
