@@ -310,6 +310,20 @@
   padding-bottom: 2%;
   background-color: rgba(0, 0, 0, .1);
 }
+.logo-groupux {
+  position: absolute;
+  left: 0px;
+  top: 35%;
+  right: 0px;
+  z-index: 5;
+  display: block;
+  width: 47%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(0, 0, 0, .2);
+}
 
 .icon {
   opacity: 0;
