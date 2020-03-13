@@ -1702,7 +1702,7 @@ textarea.w-select {
   user-select: none;
 }
 .w-nav-button.w--open {
-  background-color: #C8C8C8;
+  background-color: rgba(0, 0, 0, .2);
   color: white;
 }
 .w-nav[data-collapse="all"] .w-nav-menu {
@@ -1817,7 +1817,7 @@ textarea.w-select {
   position: relative;
   float: right;
   padding: 10px;
-  font-size: 24px;
+  font-size: 20px;
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
