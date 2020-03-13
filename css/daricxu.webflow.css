@@ -6259,6 +6259,8 @@
 }
 
 
+ /* responsive display adjustment */
+
 @media only screen and (max-width:800px){
                                 /* designer/manger font size */
 .heading-2 {
@@ -6316,6 +6318,36 @@
   font-weight: 300;
 }
     
+                                  /*Nav_resume font style*/   
     
+    .text-block.about {
+  position: static;
+  left: 4%;
+  top: 0px;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  border-bottom: 4px none hsla(0, 0%, 100%, .6);
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+}
+                                 /* small black logo on the top */
+    
+    .gray-logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 5;
+  display: block;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0;
+  cursor: pointer;
+}
     
 }
