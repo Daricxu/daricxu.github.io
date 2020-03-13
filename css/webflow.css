@@ -1808,3 +1808,26 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+
+
+@media screen and (max-width:800px){
+                                            /* navigation bar height on small screen   */ 
+    .w-nav-button {
+  position: relative;
+  float: right;
+  padding: 10px;
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+    
+    
+    
+}
