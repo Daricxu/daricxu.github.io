@@ -6338,10 +6338,11 @@
   position: absolute;
   z-index: 5;
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   max-width: 100%;
-  margin-top: 30%;
+  margin-right: auto;
+  margin-left:auto;
   opacity: 0;
   cursor: pointer;
 }
