@@ -1648,7 +1648,7 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: #C8C8C8;
+  background: rgba(0,0,0,.2);
   text-align: center;
   overflow: visible;
   min-width: 200px;
@@ -1817,7 +1817,7 @@ textarea.w-select {
   position: relative;
   float: right;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
