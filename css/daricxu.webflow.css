@@ -6325,8 +6325,8 @@
   left: 4%;
   top: 0px;
   width: auto;
-  padding-top: 10px;
-  padding-bottom: 12px;
+  padding-top: 5px;
+  padding-bottom: auto;
   border-bottom: 4px none hsla(0, 0%, 100%, .6);
   font-size: 12px;
   font-weight: 300;
@@ -6341,11 +6341,11 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 30%;
   opacity: 0;
   cursor: pointer;
 }
+   
     
                                   /* Aboutme UI/UX font style */
     .text-block-10 {
