@@ -1816,7 +1816,7 @@ textarea.w-select {
     .w-nav-button {
   position: relative;
   float: right;
-  padding: 10px;
+  padding: 5px;
   font-size: 18px;
   display: none;
   cursor: pointer;

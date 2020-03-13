@@ -6294,12 +6294,12 @@
  .works-text {
   position: static;
   left: 0px;
-  top: 10px;
+  top: 0px;
   right: 0px;
   display: block;
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 6px;
+  padding-top: 10px;
+  padding-bottom: 0px;
   opacity: 1;
   font-family: Muli;
   font-size: 12px;
@@ -6341,8 +6341,8 @@
   right: 0px;
   z-index: 5;
   display: block;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -6359,5 +6359,23 @@
     .text-block-13 {
   font-size: 10px;
 }
+    
+    .nav-link-2 {
+  padding: 5px 10px;
+  font-family: Muli;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+}
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
