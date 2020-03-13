@@ -6257,3 +6257,38 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+@media only screen and (max-width:800px){
+                                /* designer/manger font size */
+.heading-2 {
+  position: static;
+  left: 0px;
+  top: 39%;
+  right: 0px;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: none;
+  font-family: Muli;
+  color: #fff;
+  font-size: 10px;
+  line-height: 150%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.heading-2.designner {
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 400;
+}
+    
+    
+    
+}
