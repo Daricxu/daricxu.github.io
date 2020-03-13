@@ -6335,7 +6335,7 @@
                                  /* small black logo on the top */
     
     .gray-logo {
-  position: relative;
+  position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
@@ -6344,8 +6344,8 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   opacity: 0;
   cursor: pointer;
 }
