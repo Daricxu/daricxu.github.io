@@ -6660,19 +6660,19 @@ padding-right: 5px;
     margin-right: auto;
 }
     .zoom-lens.refine {
-    width: 10px;
+    width: 20px;
 }
-   .subtitle.refined {
+.subtitle.refined {
     font-size: 14px;
 } 
-   .image-78 {
+.image-78 {
     width: 25%;
 } 
-   .text-in-between.compact-deliver {
+.text-in-between.compact-deliver {
     font-size: 14px; 
 }
-    .zoom-lens.comp {
-    width: 10px;
+.zoom-lens.comp {
+    width: 20px;
 }
     .subtitle.com-housing {
     font-size: 14px;
@@ -6688,13 +6688,13 @@ padding-right: 5px;
 }
     
     .text-block-2 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
 }
     .text-block-4.business {
-    top: 38%;
+    top: 35%;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
 }
     .text-block-4.persona {
     top: 5%;
@@ -6729,7 +6729,7 @@ padding-right: 5px;
     line-height: 36px;
 } 
 .unordered-list {
-    top: 10px;
+    top: 0px;
     right: 0px;
     bottom: 0px;
     width: 37%;
@@ -6752,7 +6752,9 @@ padding-right: 5px;
     font-size: 14px;
     line-height: 20px;
 }
-    
+.concept-disc.blackt {
+    text-align: left;
+} 
     
     
     
