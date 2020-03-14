@@ -3970,7 +3970,7 @@
 
 .phone {
   position: relative;
-  left: 45.8%;
+  left: 45%;
   bottom: 30%;
   display: block;
   width: 8.5%;
@@ -6322,9 +6322,8 @@
     width: 414px;
     position: fixed;
     max-width: 100%
-}    
-    
-    
+}   
+/* navigation bar always floating outside of screenview a little bit, unsolved" */ 
     
     
                                  /* small black logo on the top */
@@ -6567,6 +6566,14 @@ padding-right: 5px;
  .project-title.other-page {
     color: rgb(0,0,0);
 }   
+    
+    .row.other {
+    width: 80%;
+}
+   
+    .contact {
+    margin-bottom: 10px;
+}
  
                                            /* Compact Kitchen Project */
                                                /*cover substitle */
@@ -6582,15 +6589,157 @@ padding-right: 5px;
 }
     
     .text-in-between.compact-kitchen.black-v {
+        margin-left: 17px;
         text-align: left;
         font-size: 16px;
 }
     
     .text-in-between.compact-kitchen:hover {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     text-align: left;
 }
+    .kw.left {
+    font-size: 16px;
+    text-align: center;
+}
+    .kw {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+    
+    .kw.right {
+    text-align: center;
+}
+   
+    .new-text-in-between.compact-delive {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.cover._80 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.subtitle.comp-ske._11 {
+    font-size: 14px;
+}    
+  .text-block-7 {
+    font-size: 14px;
+    line-height: 20px;
+}  
+  .zoom-lens.comp1 {
+    width: 10px;
+}
+  .subtitle.comp-ske.sketch1 {
+    font-size: 14px;
+}  
+    .cover._90width {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .concept-disc {
+    font-size: 14px;
+    line-height: 20px;
+}  
+   
+    .cover.stooltable {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .zoom-lens.refine {
+    width: 10px;
+}
+   .subtitle.refined {
+    font-size: 14px;
+} 
+   .image-78 {
+    width: 25%;
+} 
+   .text-in-between.compact-deliver {
+    font-size: 14px; 
+}
+    .zoom-lens.comp {
+    width: 10px;
+}
+    .subtitle.com-housing {
+    font-size: 14px;
+}
+    .new-text.blacktext.compact-summary {
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+}
+    .new-text.blacktext.middle {
+    font-size: 12px;
+    text-align: center;
+}
+    
+    .text-block-2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+    .text-block-4.business {
+    top: 38%
+    font-size: 14px;
+    line-height: 20px;
+}
+    .text-block-4.persona {
+    top: 5%;
+    font-size: 14px;
+}
+    .new-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+    
+    .new-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+    
+    .full-image.interview {
+     width: 95%;
+    margin-left: auto;
+     margin-right: auto;    
+}
+ .cover.margintb {
+    width: 80%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}   
+   .text-block-4.oa {
+    font-size: 14px;
+    line-height: 36px;
+} 
+    .unordered-list {
+    top: 25px;
+    right: 0px;
+    bottom: 0px;
+    width: 37%;
+}
+    .text-block-5 {
+    font-size: 14px;
+   
+}
+    .image-8 {
+    width: 8px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+    .text-section.comp {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+}
+    
+    
+    
     
     
     
