@@ -6370,9 +6370,10 @@
     
     /* Smart Management-ID */
     .title.elf-title.nobottomm {
-  width: 41%;
-  padding-top: 18px;
-  padding-bottom: 28px;
+  width: 45%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 16px
 }   
  
     .title.elf-title {
@@ -6382,8 +6383,6 @@
   bottom: 0%;
   width: 35%;
   margin-top: 0px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   padding-left: 0px;
   background-color: hsla(0, 8%, 42%, .7);
   color: #fff;
@@ -6399,17 +6398,63 @@
   background-color: transparent;
   font-size: 9px;
   font-weight: 300;
+  display: none;
 }
 
 .title.elf-title.elf-detail {
-  margin-top: 17px;
+  margin-top: 15px;
   padding-bottom: 10px;
   background-color: transparent;
   font-size: 9px;
   font-weight: 300;
 }
     
-    
+ .text-in-between.brownbg.blue-bg {
+  width: 80%;
+  background-color: #cbdec8;
+  font-size: 12px;
+}   
+   
+.text-in-between.brownbg {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #746363;
+  font-family: Muli;
+  font-size: 12px;
+  font-weight: 600;
+}
+ 
+.text-in-between {
+  position: static;
+  display: block;
+  width: 78%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Bembobookmtpro;
+  color: #fff;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+   
+    .column-text.sys {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 10px;    
+}
+ 
+  .kitchen-sys {
+  width: 70%;
+}  
     
     
     
