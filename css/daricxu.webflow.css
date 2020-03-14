@@ -6589,33 +6589,37 @@ padding-right: 5px;
 }
     
     .text-in-between.compact-kitchen.black-v {
-        margin-left: 17px;
+        margin-left: 12%;
         text-align: left;
         font-size: 16px;
+        line-height: 20px;
 }
     
     .text-in-between.compact-kitchen:hover {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: left;
 }
     .kw.left {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
-    .kw {
+.kw {
     font-size: 14px;
     margin-bottom: 5px;
 }
     
-    .kw.right {
+.kw.right {
     text-align: center;
 }
    
-    .new-text-in-between.compact-delive {
+.new-text-in-between.compact-delive {
     font-size: 14px;
     line-height: 20px;
     font-weight: 300;
+}
+.new-text-in-between.compact-delive._100 {
+ text-align: left;
 }
 .cover._80 {
     width: 80%;
@@ -6629,8 +6633,12 @@ padding-right: 5px;
     font-size: 14px;
     line-height: 20px;
 }  
+.text-block-7.secondarykitchen {
+    top: 55%;
+}
+    
   .zoom-lens.comp1 {
-    width: 10px;
+    width: 20px;
 }
   .subtitle.comp-ske.sketch1 {
     font-size: 14px;
@@ -6643,6 +6651,7 @@ padding-right: 5px;
   .concept-disc {
     font-size: 14px;
     line-height: 20px;
+    text-align: left;
 }  
    
     .cover.stooltable {
@@ -6683,7 +6692,7 @@ padding-right: 5px;
     line-height: 20px;
 }
     .text-block-4.business {
-    top: 38%
+    top: 38%;
     font-size: 14px;
     line-height: 20px;
 }
@@ -6701,8 +6710,10 @@ padding-right: 5px;
     font-weight: 600;
     text-align: center;
 }
-    
-    .full-image.interview {
+.new-text.blacktext.research-findings {
+    width: 80%;
+}
+.full-image.interview {
      width: 95%;
     margin-left: auto;
      margin-right: auto;    
@@ -6713,22 +6724,26 @@ padding-right: 5px;
     margin-left: auto;
     margin-right: auto;
 }   
-   .text-block-4.oa {
+.text-block-4.oa {
     font-size: 14px;
     line-height: 36px;
 } 
-    .unordered-list {
-    top: 25px;
+.unordered-list {
+    top: 10px;
     right: 0px;
     bottom: 0px;
     width: 37%;
 }
-    .text-block-5 {
+.text-block-5 {
     font-size: 14px;
-   
 }
-    .image-8 {
-    width: 8px;
+.text-block-6 {
+    font-family: Muli;
+    font-size: 12px;
+    text-align: left;
+}
+.image-8 {
+    width: 10px;
     margin-left: auto;
     margin-right: auto;    
 }
