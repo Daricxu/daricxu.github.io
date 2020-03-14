@@ -6319,7 +6319,7 @@
   cursor: pointer;
 }
 .new-navi {
-    width: 100%;
+    width: 375px;
     position: fixed;
     max-width: 100%
 }    
