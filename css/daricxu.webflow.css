@@ -6261,7 +6261,7 @@
 
  /* responsive display adjustment */
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:700px){
                                                  /* designer/manger font size */
 .heading-2 {
   font-size: 12px;
@@ -6319,7 +6319,7 @@
   cursor: pointer;
 }
 .new-navi {
-    width: 100%;
+    width: 414px;
     position: fixed;
     max-width: 100%
 }    
@@ -6425,6 +6425,13 @@
   text-align: center;
 }
    
+    .text-in-between:hover {
+    font-size: 14px;
+    line-height: 20px;
+}
+    
+    
+    
     .column-text.sys {
   position: static;
   display: block;
@@ -6529,6 +6536,15 @@ padding-right: 5px;
     padding-right: 1.5px;
     padding-left: 1.5px;
 }   
+ .column-13 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.column-13.left-co {
+    padding-right: 0px;
+    padding-left: 0px;
+}    
+    
     
 .image-15.phonenumber {
     left: 23%;

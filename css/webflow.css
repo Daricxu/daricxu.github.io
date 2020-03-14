@@ -1811,7 +1811,7 @@ textarea.w-select {
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
                                             /* navigation bar height on small screen   */ 
     .w-nav-button {
   position: relative;
