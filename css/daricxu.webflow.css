@@ -6372,7 +6372,7 @@
   width: 45%;
   padding-top: 10px;
   padding-bottom: 30px;
-  line-height: 16px
+  line-height: 15px
 }   
  
     .title.elf-title {
@@ -6393,11 +6393,11 @@
 }
 
 .title.elf-title.elf-detail {
-  margin-top: 25px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  padding-bottom: 5px;
   background-color: transparent;
   font-size: 9px;
-    line-height: 14px;
+    line-height: 12px;
   font-weight: 300;
 }
     
@@ -6484,16 +6484,18 @@ padding-right: 5px;
 .introduction.industry-ternd {
     position: absolute;
     left: 0px;
-    top: 5%;
+    top: 3%;
     font-size: 12px; 
 }    
     
 .introduction.industry-ternd.smaller {
-    top: 8%;
+    top: 10%;
+    padding-right: 10px;
+    padding-left: 10px;
     font-weight: 300;
     text-align: left;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 18px;
 }    
 .sub-section-tiltle {
    font-size: 12px;
@@ -6503,26 +6505,38 @@ padding-right: 5px;
     .text-block-25 {
     font-size: 12px;
     line-height: 16px;
+        padding-top: 20px;
 } 
 
+.div-block-31 {
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+}
+    
+.div-block-31.right-column {
+    margin-right: 1.5px;
+    margin-left:  1.5px;
+}
+    
+ .div-block-33 {
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+}   
+    
 .image-15.phonenumber {
-    left: 10%;
+    left: 20%;
     cursor: default;
 }    
 .image-15.mail {
-    right: 10%;
+    right: 20%;
     bottom: 0px;
     height: 16px;
-    cursor: pointer;
 }
     
 .phone {
-    position: relative;
-    left: 15%;
+    left: 25%;
     bottom: 30%;
-    display: block;
-    width: 8.5%;
-    font-family: Muli;
+    width: auto;
     font-size: 12px;
     text-align: left;
 }    
@@ -6530,7 +6544,7 @@ padding-right: 5px;
  .project-title.other-page {
     color: rgb(0,0,0);
 }   
-    
+ 
     
     
     
