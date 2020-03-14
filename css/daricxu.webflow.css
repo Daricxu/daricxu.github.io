@@ -3878,6 +3878,7 @@
 }
 
 .new-navi {
+  width: 100%;
   position: fixed;
   left: 0px;
   top: 0px;
