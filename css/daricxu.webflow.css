@@ -6356,7 +6356,7 @@
   cursor: pointer;
 }
     
-                               /* Smart Management-ID */
+                               /* Smart Management Proj-ID */
     .title.elf-title.nobottomm {
   width: 45%;
   padding-top: 8px;
@@ -6545,9 +6545,29 @@ padding-right: 5px;
     color: rgb(0,0,0);
 }   
  
+                                           /* Compact Kitchen Project */
+                                               /*cover substitle */
+    .title.compact {
+    top: 42%;
+    font-size: 18px;
+}
+    .title.comp {
+    font-size: 10px;
+}
+    .title.ac.comy {
+    font-size: 10px;
+}
     
+    .text-in-between.compact-kitchen.black-v {
+        text-align: left;
+        font-size: 16px;
+}
     
-    
+    .text-in-between.compact-kitchen:hover {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
     
     
     
