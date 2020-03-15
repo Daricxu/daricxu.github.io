@@ -6800,7 +6800,8 @@ padding-right: 5px;
     left: 5%;
     font-size: 14px;
     width: 50%;
-    line-height: 18px;
+    line-height: 18px;      
+    margin-left: 0px;
 }
 .subtitle.ges {
     font-size: 14px;
@@ -6817,9 +6818,58 @@ padding-right: 5px;
     margin-top: -70;
 }
 .subtitle.ges.ideation {
-    top: 30%;
+    top: 20%;
     z-index: 1;
 }  
+.text-block-8.middle.white {
+    left: 34px;
+} 
+                                      /* Xfood Smart kitchen UX already done with ID part   */ 
+.title.xfoodname {
+    top: 35%;
+    margin-top: 45px;
+    font-size: 14px;
+    line-height:18px; 
+}    
+.title.xfood {
+    top: 35%;
+    margin-top: 28px;
+    font-size: 10px;
+}   
+.title.xfoodprojecttype {
+    top: 35%;
+    margin-top: 67px;
+    font-size: 10px;
+}
+.text-in-between.xtext1 {
+font-size: 14px;
+text-align: left;
+line-height: 20px;
+}
+.text-in-between.xfoodsection.feature {
+    font-size: 14px;
+}   
+    
+.text-in-between.xfoodsection {
+    font-size: 14px;
+    font-weight: 300;
+}
+    
+.new-text.framer {
+    font-size: 12px;
+    line-height: 18px;
+}  
+    
+.w-background-video > video {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    min-height: 50%;
+   
+}   
+    
+    
+    
     
     
 }

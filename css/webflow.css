@@ -1827,6 +1827,15 @@ textarea.w-select {
   -ms-user-select: none;
   user-select: none;
 }
+                                        /*  xfood click through demo video */
+    
+.w-video {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
     
     
     
