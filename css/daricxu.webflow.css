@@ -6698,16 +6698,16 @@ padding-right: 5px;
     .new-text.blacktext.middle {
     font-size: 12px;
     text-align: center;
-}
-    
+}   
     .text-block-2 {
     font-size: 12px;
     line-height: 20px;
 }
     .text-block-4.business {
     top: 38%;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
 }
     .text-block-4.persona {
     top: 5%;
@@ -7178,10 +7178,105 @@ font-size: 12px;
     right: 5px;
     text-align: right;
 }   
+  
     
+                                /* forklift pj */
+.title.forklifttitle {
+    top: 21%;
+    right: 5%;
+    width: 40%;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.title.forklift-year {
+    top: 21%;
+    right: 5%;
+    bottom: auto;
+    width: 40%;
+    font-size: 9px;
+    line-height: 12px;
+}   
     
+.title.forklift-year.ucollege {
+    top: 21%;
+    margin-top: 52px;
+    font-size: 9px;
+    line-height: 12px;
+}
+  .new-text-in-between.myrole {
+    font-size: 9px;
+    line-height: 12px;
+}
+  .new-text-in-between.forklift-22 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+}  
+.div-block.redbg._45 {
+    margin-top: 15px;
+}   
+ .new-text.lifttruck {
+   font-size: 12px;
+     line-height: 16px;
+}   
+.text-in-between.sectiontitle {
+font-size: 14px;
+} 
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-text.expertinterview {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.text-section.questionnaire {
+font-size: 12px;
+    line-height: 16px;
+}   
+ .new-text.insight {
+    line-height: 20px;
+}   
+.new-text.midalignment {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}    
+.cover.target-scenario {
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}   
+ .text-in-between.requirement {
+font-size: 14px;
+     line-height: 20;
+}   
+.text-block-21 {
+   font-size: 12px;
+    line-height: 16px;
+}   
     
+.text-block-22 {
+font-size: 12px;
+    line-height: 16px;
+}
+.div-block-24 {
+    top: 14%;
+    right: 0px;
+    display: block;
+    width: 40%;
+    height: 25%;
+}    
     
+.text-block-23 {
+ left: 0px;
+    top: 40%;
+    font-size: 14px;
+    line-height: 20px;
+}   
     
     
 }
