@@ -6569,6 +6569,8 @@ padding-right: 5px;
     
     .row.other {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
    
     .contact {
@@ -6577,25 +6579,28 @@ padding-right: 5px;
  
                                            /* Compact Kitchen Project */
                                                /*cover substitle */
-    .title.compact {
-    top: 42%;
+.title.compact {
+    top: 37%;
     font-size: 18px;
 }
-    .title.comp {
+.title.comp {
     font-size: 10px;
+        top: 37%;
 }
-    .title.ac.comy {
+.title.ac.comy {
     font-size: 10px;
+        top: 37%;
 }
     
-    .text-in-between.compact-kitchen.black-v {
-        margin-left: 12%;
+.text-in-between.compact-kitchen.black-v {
+        margin-left: 14%;
+         width: 76%;
         text-align: left;
         font-size: 16px;
         line-height: 20px;
 }
     
-    .text-in-between.compact-kitchen:hover {
+.text-in-between.compact-kitchen:hover {
     font-size: 16px;
     line-height: 20px;
     text-align: left;
@@ -6634,7 +6639,7 @@ padding-right: 5px;
     line-height: 20px;
 }  
 .text-block-7.secondarykitchen {
-    top: 55%;
+    top: 58%;
 }
     
   .zoom-lens.comp1 {
@@ -6676,6 +6681,7 @@ padding-right: 5px;
 }
     .subtitle.com-housing {
     font-size: 14px;
+        top: 3px;
 }
     .new-text.blacktext.compact-summary {
     width: 80%;
@@ -6732,14 +6738,15 @@ padding-right: 5px;
     top: 0px;
     right: 0px;
     bottom: 0px;
-    width: 37%;
+    width: 42%;
+    z-index: 50;
 }
 .text-block-5 {
-    font-size: 14px;
+    font-size: 12px;
 }
 .text-block-6 {
     font-family: Muli;
-    font-size: 12px;
+    font-size: 10px;
     text-align: left;
 }
 .image-8 {
@@ -6755,7 +6762,10 @@ padding-right: 5px;
 .concept-disc.blackt {
     text-align: left;
 } 
-    
+    .text-in-between.comphousing {
+    top: 20px;
+   
+}
     
     
     
