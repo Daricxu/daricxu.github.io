@@ -6875,7 +6875,7 @@ line-height: 20px;
 .login.planning {
     left: 27%;
     top: 19%;
-    widows: 60%;
+    width: 60%;
 }    
 .login.planning.document {
     top: 45%;
@@ -7059,15 +7059,16 @@ font-size: 12px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 14px;
+    width: 45%;
 }
 .sctvr1 {
-    width: 35%;
+    width: 30%;
 }
 .sctvr2 {
     width: 60%;
 }    
 .text-in-between.ssctvr {
-    top: 86%;
+    top: 80%;
     right: 0px;
     width: 90%;
     font-size: 10px;
@@ -7076,39 +7077,37 @@ font-size: 12px;
 }  
     
 .sctv-text-block {
-    top: 15%;
     right: 10%;
-    width: 40%;
+    width: 50%;
     padding-top: 7px;
     padding-bottom: 7px;
-}    
-    
+}       
 .sctv-text-block.conn {
     top: 0%;
-    width: 40%;
+    width: 50%;
 }    
   
 .sctv-text-block.conn.limited {
     top: 4.5%;
     right: 12%;
     width: 30%;
-}
-    
+}   
 .text-in-between.sctvr3.sctv-title {
     padding-top: 1%;
     font-size: 12px;
     line-height: 16px;
+    padding-bottom: 3px;
 }   
 .text-in-between.sctvr3.tradition {
     padding-top: 1%;
     line-height: 16px;
+    padding-bottom: 3px;
 }
 
 .zoom-lens {
     top: 10%;
     width: 20px;
-}
-    
+}    
     
 .ssctv-collum {
     top: 35%;
@@ -7116,7 +7115,7 @@ font-size: 12px;
 }
 .ssctv-collum-11 {
     display: block;
-    width: 15%;
+    width: 10%;
     height: auto;
 }
 .familymv {
@@ -7133,9 +7132,18 @@ font-size: 12px;
     bottom: 7%;
     width: 30%;
 }   
-    
-    
-    
+ .sctvc1 {
+    top: 12%;
+    width: 80%;
+}   
+.sctv-text-block.conn.stress {
+    top: 5%;
+    right: 11%;
+} 
+.sctv-text-block.user {
+    top: 70%;
+}  
+  
     
     
     
