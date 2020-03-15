@@ -6768,6 +6768,48 @@ padding-right: 5px;
 }
     
     
+                                                        /* GE washer project */
+.text-block-8 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+}
+   
+.text-block-8.middle {
+    top: 80%;
+}    
+    
+.title.gew {
+    top: 80%;
+    font-size: 10px;
+    font-weight: 400;
+}   
+.title.ac.gew._22 {
+    top: 80%;
+}   
+.text-in-between.washer-intr {
+    font-size: 14px;
+    line-height: 20px;
+}
+    
+.zoom-lens.gesketch {
+    width: 20px;
+}  
+.subtitle.ges.frontload {
+    left: 5%;
+    font-size: 14px;
+}
+.subtitle.ges {
+    font-size: 14px;
+}
+.zoom-lens.gesketch.refinement {
+    width: 20px;
+}
+.subtitle.ges.white {
+    font-size: 14px;
+}
+    
+    
     
     
 }
