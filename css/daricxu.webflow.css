@@ -6860,18 +6860,8 @@ line-height: 20px;
     line-height: 18px;
 }  
     
-/*.w-video iframe, .w-video object, .w-video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
 .background-video-3 {
-    /*z-index: 22;
-    width: 100%;
-    height: 680px;
-    margin-left: auto;*/
+    display: block;
     display: none;
 }     
 .login {
@@ -6932,6 +6922,7 @@ line-height: 20px;
    
 }
 .xfooddivision.video-black {
+    display: block;
     display: none;
 }  
 
