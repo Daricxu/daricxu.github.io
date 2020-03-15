@@ -6742,13 +6742,14 @@ padding-right: 5px;
     z-index: 50;
 }
 .text-block-5 {
-    font-size: 12px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    font-size: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    line-height: 11px;
 }
 .text-block-6 {
-    font-family: Muli;
-    font-size: 10px;
+    font-size: 8px;
+    line-height: 10px;
     text-align: left;
 }
 .image-8 {
@@ -6874,6 +6875,7 @@ line-height: 20px;
 .login.planning {
     left: 27%;
     top: 19%;
+    widows: 60%;
 }    
 .login.planning.document {
     top: 45%;
@@ -6882,11 +6884,7 @@ line-height: 20px;
     
 .login.report {
     top: 45%;
-}
-.login.planning {
-    top: 19%;
-    right: 0px;
-}    
+}   
 .text-in-between.scenari {
     width: 80%;
     font-size: 14px;
@@ -6900,7 +6898,6 @@ line-height: 20px;
 .section-division.bgpink._80-per {
     font-weight: 600;
 }
-    
 .opportunity {
     top: 5%;
     width: 85%;
@@ -6909,11 +6906,13 @@ line-height: 20px;
     line-height: 14px;
     padding-right: 8px;
     padding-left: 8px;
+    margin-top: 5px;
 }   
  .text-block-16 {
     font-size: 12px;
-    text-align: center;
     line-height: 16px;
+    padding-bottom: 3px;
+     bottom: 0;
 }
 .text-in-between.xtext1._100 {
    font-size: 14px;
@@ -6957,12 +6956,12 @@ font-size: 12px;
 } 
     
     
-    /* photocopier interface Pj*/
+                                              /* photocopier interface Pj*/
     
 .w-background-video > video {
     margin-left: auto;
     margin-right: auto;
-    min-width: 50%;
+    min-width: 30%;
     min-height: auto;
     z-index: -100;
 }
@@ -6970,7 +6969,7 @@ font-size: 12px;
 .title.photocopier {
     left: auto;
     top: 35%;
-    width: 50%;
+    width: 65%;
     margin-top: 35px;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -6986,7 +6985,7 @@ font-size: 12px;
 }
 .title.photocopier.detail {
     width: 50%;
-    margin-top: 58px;
+    margin-top: 50px;
     font-size: 10px;
     font-weight: 300;
 }  
@@ -7002,7 +7001,7 @@ font-size: 12px;
     font-size: 14px;
 } 
 .text-in-between.brownbg.photocopier.myrole {
-    width: 80%;
+    width: 75%;
     font-size: 9px;
     line-height: 12px;
 } 
@@ -7018,7 +7017,122 @@ font-size: 12px;
     font-size: 12px;
     line-height: 16px;
 }
+.title.photocopier.detail.detail2 {
+    margin-top: 25px;
+}
+     
+                                  /* UI/UX index font style */
     
+.introduction {
+    font-size: 14px;
+    line-height: 20px;
+}    
+    
+                        /* Samsung TV project */
+
+.title.ssap {
+    top: 25%;
+    margin-top: 45px;
+    font-size: 14px;
+}
+.title.ap.ap2 {
+    top: 25%;
+    margin-top: 57px;
+    font-size: 9px;
+}
+.title.ap.ap2.tv-team {
+    top: 25%;
+    margin-top: 67px;
+    font-size: 9px;
+}   
+.title.ap {
+    top: 25%;
+    margin-top: 35px;
+    font-size: 9px;
+} 
+
+.text-in-between.sctvt {
+    font-size: 14px;
+    line-height: 20px;
+}
+.subtitle.sstvc {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.sctvr1 {
+    width: 35%;
+}
+.sctvr2 {
+    width: 60%;
+}    
+.text-in-between.ssctvr {
+    top: 86%;
+    right: 0px;
+    width: 90%;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+}  
+    
+.sctv-text-block {
+    top: 15%;
+    right: 10%;
+    width: 40%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}    
+    
+.sctv-text-block.conn {
+    top: 0%;
+    width: 40%;
+}    
+  
+.sctv-text-block.conn.limited {
+    top: 4.5%;
+    right: 12%;
+    width: 30%;
+}
+    
+.text-in-between.sctvr3.sctv-title {
+    padding-top: 1%;
+    font-size: 12px;
+    line-height: 16px;
+}   
+.text-in-between.sctvr3.tradition {
+    padding-top: 1%;
+    line-height: 16px;
+}
+
+.zoom-lens {
+    top: 10%;
+    width: 20px;
+}
+    
+    
+.ssctv-collum {
+    top: 35%;
+    width: 80%;
+}
+.ssctv-collum-11 {
+    display: block;
+    width: 15%;
+    height: auto;
+}
+.familymv {
+    margin-top: 20px;
+}  
+    
+.text-in-between.instant {
+    font-size: 14px;
+   
+} 
+.text-in-between.fmv {
+    left: 42%;
+    right: 0px;
+    bottom: 7%;
+    width: 30%;
+}   
     
     
     
