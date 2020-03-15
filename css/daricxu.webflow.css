@@ -6865,7 +6865,7 @@ line-height: 20px;
     display: none;
 }     
 .login {
-    width: 50%;
+    width: 45%;
     font-size: 12px;
     text-align: center;
     top: 35%;
@@ -6903,14 +6903,17 @@ line-height: 20px;
     
 .opportunity {
     top: 5%;
-    width: 90%;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 16px;
+    width: 85%;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 14px;
+    padding-right: 8px;
+    padding-left: 8px;
 }   
  .text-block-16 {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
+    line-height: 16px;
 }
 .text-in-between.xtext1._100 {
    font-size: 14px;
@@ -6929,9 +6932,9 @@ line-height: 20px;
 .text-in-between.xfoodsection.bigger {
     font-size: 14px;
 }
-.login.preview {
-    widows: 50%;
-}
+/*.login.preview {
+    width: 50%;
+} */
 .new-text.blacktext {
 font-size: 12px;
     line-height: 16px;
@@ -6949,6 +6952,77 @@ font-size: 12px;
 .text-in-between.xtext1._100.right-align {
     text-align: left;
 }   
+.cover.benchemark {
+    padding-top: 5px;
+} 
+    
+    
+    /* photocopier interface Pj*/
+    
+.w-background-video > video {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    min-height: auto;
+    z-index: -100;
+}
+    
+.title.photocopier {
+    left: auto;
+    top: 35%;
+    width: 50%;
+    margin-top: 35px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}   
+.title.photocopier.detail {
+    width: 50%
+    margin-top: 58px;
+    font-size: 10px;
+    font-weight: 300;
+}
+.title.photocopier.detail {
+    width: 50%;
+    margin-top: 58px;
+    font-size: 10px;
+    font-weight: 300;
+}  
+  .text-in-between.lifttruck {
+    font-size: 14px;
+    line-height: 20px;
+}  
+ .text-in-between.lifttruck:hover {
+    font-size: 16px;
+    line-height: 22px;
+}   
+.text-in-between.brownbg.photocopier {
+    font-size: 14px;
+} 
+.text-in-between.brownbg.photocopier.myrole {
+    width: 80%;
+    font-size: 9px;
+    line-height: 12px;
+} 
+.text-in-between.copier-bg.topmargin {
+    font-size: 14px;
+}
+.text-in-between.copier-bg.white-bg {
+    font-size: 12px;
+    text-align: left;
+    line-height: 16px;
+}
+.text-in-between.copier-bg.graybg {
+    font-size: 12px;
+    line-height: 16px;
+}
+    
+    
+    
+    
+    
     
     
     
