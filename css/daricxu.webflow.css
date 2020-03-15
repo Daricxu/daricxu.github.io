@@ -6698,9 +6698,9 @@ padding-right: 5px;
     line-height: 20px;
 }
     .text-block-4.business {
-    top: 35%;
-    font-size: 14px;
-    line-height: 18px;
+    top: 38%;
+    font-size: 12px;
+    line-height: 16px;
 }
     .text-block-4.persona {
     top: 5%;
@@ -6743,6 +6743,8 @@ padding-right: 5px;
 }
 .text-block-5 {
     font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .text-block-6 {
     font-family: Muli;
@@ -6763,7 +6765,8 @@ padding-right: 5px;
     text-align: left;
 } 
     .text-in-between.comphousing {
-    top: 20px;
+    top: 15px;
+    font-size: 12px;
    
 }
     
@@ -6773,31 +6776,31 @@ padding-right: 5px;
     font-size: 14px;
     font-weight: 700;
     text-align: right;
-}
-   
+}  
 .text-block-8.middle {
-    top: 80%;
-}    
-    
+    top: 77%;
+}        
 .title.gew {
-    top: 80%;
+    top: 77%;
     font-size: 10px;
-    font-weight: 400;
+   margin-top: 40px;
 }   
 .title.ac.gew._22 {
-    top: 80%;
+    top: 77%;
 }   
 .text-in-between.washer-intr {
     font-size: 14px;
     line-height: 20px;
-}
-    
+}   
 .zoom-lens.gesketch {
     width: 20px;
+    bottom: 5px;
 }  
 .subtitle.ges.frontload {
     left: 5%;
     font-size: 14px;
+    width: 50%;
+    line-height: 18px;
 }
 .subtitle.ges {
     font-size: 14px;
@@ -6808,8 +6811,15 @@ padding-right: 5px;
 .subtitle.ges.white {
     font-size: 14px;
 }
-    
-    
+.new-text.blacktext.middle {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: -70;
+}
+.subtitle.ges.ideation {
+    top: 30%;
+    z-index: 1;
+}  
     
     
 }
