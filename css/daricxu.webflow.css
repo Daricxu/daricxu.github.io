@@ -6340,6 +6340,13 @@
   opacity: 0;
   cursor: pointer;
 }
+    
+    .works-text.sub._3r {
+    margin-top: 13px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 20px;
+}
    
     
                                   /* Aboutme UI/UX font style */
@@ -7068,7 +7075,7 @@ font-size: 12px;
     width: 60%;
 }    
 .text-in-between.ssctvr {
-    top: 80%;
+    top: 78%;
     right: 0px;
     width: 90%;
     font-size: 10px;
@@ -7083,14 +7090,13 @@ font-size: 12px;
     padding-bottom: 7px;
 }       
 .sctv-text-block.conn {
-    top: 0%;
-    width: 50%;
+    display: block;
+    display: none;
 }    
   
 .sctv-text-block.conn.limited {
-    top: 4.5%;
-    right: 12%;
-    width: 30%;
+    display: block;
+    display: none;
 }   
 .text-in-between.sctvr3.sctv-title {
     padding-top: 1%;
@@ -7117,6 +7123,7 @@ font-size: 12px;
     display: block;
     width: 10%;
     height: auto;
+    margin-bottom: 15px;
 }
 .familymv {
     margin-top: 20px;
@@ -7137,13 +7144,42 @@ font-size: 12px;
     width: 80%;
 }   
 .sctv-text-block.conn.stress {
-    top: 5%;
-    right: 11%;
+    display: block;
+    display: none;
 } 
 .sctv-text-block.user {
     top: 70%;
 }  
   
+.text-in-between.sctvr3.darker {
+    line-height: 14px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}   
+  
+.text-in-between.sctvr3.conn.darker {
+    width: 50%;
+    line-height: 14px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}    
+    
+    
+.click-to-zoom {
+    left: 5px;
+    top: 15%;
+    width: 8%;
+    font-size: 9px;
+   line-height: 12px;
+}    
+    
+.click-to-zoom.right {
+    top: 70%;
+    right: 5px;
+    text-align: right;
+}   
+    
+    
     
     
     
