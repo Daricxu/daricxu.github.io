@@ -6860,25 +6860,26 @@ line-height: 20px;
     line-height: 18px;
 }  
     
-.w-video iframe, .w-video object, .w-video embed {
+/*.w-video iframe, .w-video object, .w-video embed {
     position: absolute;
     top: 0;
-    left: auto;
-    right: auto;
+    left: 0;
     width: 100%;
     height: 100%;
-}
+}*/
 .background-video-3 {
-    z-index: 22;
+    /*z-index: 22;
     width: 100%;
     height: 680px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto;*/
+    display: none;
 }     
 .login {
-    width: 70%;
+    width: 50%;
     font-size: 12px;
     text-align: center;
+    top: 35%;
+    line-height: 16px;
 }   
 .login.planning {
     left: 27%;
@@ -6886,6 +6887,7 @@ line-height: 20px;
 }    
 .login.planning.document {
     top: 45%;
+    width: 60%;
 } 
     
 .login.report {
@@ -6899,14 +6901,10 @@ line-height: 20px;
     width: 80%;
     font-size: 14px;
     line-height: 20px;
-}
+}   
 .new-text._80 {
-    font-size: 14px;
-    line-height: 24px;
-}    
-.new-text._80 {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 16px;
 }  
  
 .section-division.bgpink._80-per {
@@ -6914,25 +6912,52 @@ line-height: 20px;
 }
     
 .opportunity {
-    top: 15%;
-    width: 80%;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
+    top: 5%;
+    width: 90%;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
 }   
  .text-block-16 {
     font-size: 14px;
     text-align: center;
 }
 .text-in-between.xtext1._100 {
-   font-size: 12px;
-line-height: 16px;
+   font-size: 14px;
+line-height: 20px;
 }  
     
 .persona-s {
     font-size: 14px;
    
 }
+.xfooddivision.video-black {
+    display: none;
+}  
+
+.text-in-between.xfoodsection.bigger {
+    font-size: 14px;
+}
+.login.preview {
+    widows: 50%;
+}
+.new-text.blacktext {
+font-size: 12px;
+    line-height: 16px;
+}
+.opportunity.keyword {
+    bottom: 5%;
+    font-size: 14px;
+    line-height: 18px;
+}
+.new-text.blacktext {
+    font-size: 12px;
+    line-height: 18px;
+    width: 90%;
+}  
+.text-in-between.xtext1._100.right-align {
+    text-align: left;
+}   
     
     
     
