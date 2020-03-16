@@ -7041,6 +7041,7 @@ font-size: 12px;
     top: 25%;
     margin-top: 45px;
     font-size: 14px;
+    font-weight: 400;
 }
 .title.ap.ap2 {
     top: 25%;
@@ -7177,31 +7178,32 @@ font-size: 12px;
     top: 70%;
     right: 5px;
     text-align: right;
-}   
-  
+}    
     
                                 /* forklift pj */
 .title.forklifttitle {
     top: 5%;
-    right: 5%;
+    right: 2%;
     width: 45%;
     margin-top: 12px;
     font-size: 14px;
     line-height: 20px;
+    font-weight: 400;
 }
 .title.forklift-year {
     top: 5%;
-    right: 5%;
+    right: 2%;
    margin-top: 5px;
     width: 45%;
-    font-size: 9px;
+    font-size: 8px;
     line-height: 12px;
+    font-weight: 100;
 }   
     
 .title.forklift-year.ucollege {
     top: 5%;
     margin-top: 32px;
-    font-size: 9px;
+    font-size: 8px;
     line-height: 12px;
 }
   .new-text-in-between.myrole {
@@ -7252,12 +7254,12 @@ font-size: 12px;
  .text-in-between.requirement {
 font-size: 14px;
      line-height: 20px;
+     width: 95%;
 }   
 .text-block-21 {
    font-size: 12px;
     line-height: 16px;
-}   
-    
+}     
 .text-block-22 {
 font-size: 12px;
     line-height: 16px;
@@ -7267,15 +7269,76 @@ font-size: 12px;
     right: 0px;
     display: block;
     width: 40%;
-    height: 20%;
-}    
-    
+    height: 15%;
+}       
 .text-block-23 {
  left: 0px;
-    top: 30%;
+    top: 25%;
     font-size: 14px;
     line-height: 20px;
 }   
+    
+                                     /* Samsung air purifier pro */  
+.title.ap.ap2.ac-team {
+    top: 25%;
+    margin-top: 40px;
+    font-size: 8px;
+}
+.text-in-between.ssap {
+    font-size: 14px;
+    line-height: 20px;
+}   
+.sap-bt.ssap2 {
+    font-size: 14px;
+    font-weight: 500;
+}    
+.sap-bt {
+    font-size: 12px;
+    line-height: 26px;
+}    
+.zoom-lens.airpurifier {
+    width:15px;
+    margin-top: 5px;
+}
+.ssapur {
+    top: 30%;
+    width: 30%;
+}    
+.text-in-between.ssapurt {
+    top: 31%;
+    font-size: 12px;
+    font-weight: 400;
+}    
+.text-in-between.ssapurt.ssapurt2 {
+    top: 37%;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 200;
+}  
+.subtitle.ssapcd {
+    top: 5px;
+    font-size: 14px;
+    text-align: center;
+}   
+.zoom-lens.apc {
+    top: 5px;
+    }
+.subtitle.ssapac {
+    top: 35%;
+    right: 5%;
+    font-size: 14px;
+    line-height: 20px;
+}    
+.subtitle.ssapac.cy {
+    top: 30%;
+    font-size: 14px;
+}
+    
+    
+    
+    
+    
+    
     
     
 }
