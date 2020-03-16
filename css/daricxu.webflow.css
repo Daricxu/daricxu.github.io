@@ -6297,7 +6297,7 @@
 
 .works-text.sub {
   left: 0px;
-  top: 55%;
+  top: 40%;
   right: 0px;
   padding-top: 0px;
   padding-bottom: 10px;
@@ -7281,7 +7281,7 @@ font-size: 12px;
                                      /* Samsung air purifier pro */  
 .title.ap.ap2.ac-team {
     top: 25%;
-    margin-top: 60px;
+    margin-top: 65px;
     font-size: 8px;
 }
 .text-in-between.ssap {
@@ -7302,16 +7302,16 @@ font-size: 12px;
     margin-top: 5px;
 }
 .ssapur {
-    top: 31%;
+    top: 28%;
     width: 40%;
 }    
 .text-in-between.ssapurt {
-    top: 32%;
+    top: 29%;
     font-size: 14px;
     font-weight: 400;
 }    
 .text-in-between.ssapurt.ssapurt2 {
-    top: 40%;
+    top: 39%;
     font-size: 12px;
     line-height: 16px;
     font-weight: 200;
@@ -7319,7 +7319,7 @@ font-size: 12px;
 .subtitle.ssapcd {
     top: 5px;
     font-size: 14px;
-    text-align: center;
+    margin-bottom: 8px;
 }   
 .zoom-lens.apc {
     top: 5px;
@@ -7348,26 +7348,26 @@ font-size: 12px;
     
                     /*Whirlpool topload washer*/   
 .title.wtl {
-    left: 45%;
+    left: 40%;
     top: 60%;
-    width: 40%;
+    width: 60%;
     margin-top: 35px;
     font-size: 14px;
     font-weight: 400;
 }    
  
   .title.wtl.wtpt {
-    left: 45%;
+    left: 40%;
     top: 60%;
-    margin-top: 52px;
+    margin-top: 48px;
     color: #6d6e71;
     font-size: 9px;
     font-weight: 200;
 }  
 .title.wtl.wyear {
-    left: 45%;
+    left: 40%;
     top: 60%;
-    margin-top: 18px;
+    margin-top: 23px;
     font-size: 9px;
     font-weight: 200;
 }
@@ -7384,13 +7384,27 @@ font-size: 12px;
     top: 1%;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }  
 .whtlft {
     font-size: 14px;
     font-weight: 400;
+    margin-top: 0px;
 
 }  
-  
+.subtitle.ssapcd.pr {
+    margin-top: 8px;
+}
+.whtlft.proto {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}  
+    
+    
+    
     
     
 }
