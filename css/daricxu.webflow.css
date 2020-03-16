@@ -7273,7 +7273,7 @@ font-size: 12px;
 }       
 .text-block-23 {
  left: 0px;
-    top: 20%;
+    top: 15%;
     font-size: 14px;
     line-height: 20px;
 }   
@@ -7311,7 +7311,7 @@ font-size: 12px;
     font-weight: 400;
 }    
 .text-in-between.ssapurt.ssapurt2 {
-    top: 39%;
+    top: 41%;
     font-size: 12px;
     line-height: 16px;
     font-weight: 200;
@@ -7325,7 +7325,7 @@ font-size: 12px;
     top: 5px;
     }
 .subtitle.ssapac {
-    top: 35%;
+    top: 55%;
     right: 5%;
     font-size: 14px;
     line-height: 20px;
@@ -7348,8 +7348,8 @@ font-size: 12px;
     
                     /*Whirlpool topload washer*/   
 .title.wtl {
-    left: 40%;
-    top: 60%;
+    left: 42%;
+    top: 70%;
     width: 60%;
     margin-top: 35px;
     font-size: 14px;
@@ -7357,16 +7357,16 @@ font-size: 12px;
 }    
  
   .title.wtl.wtpt {
-    left: 40%;
-    top: 60%;
+    left: 42%;
+    top: 70%;
     margin-top: 48px;
     color: #6d6e71;
     font-size: 9px;
     font-weight: 200;
 }  
 .title.wtl.wyear {
-    left: 40%;
-    top: 60%;
+    left: 42%;
+    top: 70%;
     margin-top: 23px;
     font-size: 9px;
     font-weight: 200;
@@ -7386,8 +7386,8 @@ font-size: 12px;
     font-weight: 400;
     margin-bottom: 8px;
     margin-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 0;
+
 }  
 .whtlft {
     font-size: 14px;
@@ -7399,12 +7399,90 @@ font-size: 12px;
     margin-top: 8px;
 }
 .whtlft.proto {
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 5px;
 }  
+       
+                     /*whirlpool AC*/
+.title.acname {
+    top: 22.5%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.title.fridge.type {
+    top: 85%;
+    margin-top: 32px;
+    font-size: 9px;
+    font-weight: 200;
+}        
+.title.ac {
+    top: 22.5%;
+    margin-top: 28px;
+    font-size: 9px;
+    font-weight: 200;
+}    
+
+.text-in-between.ac1 {
+    font-size:14px;
+    line-height: 20px;
+    font-weight: 200;
+}    
+.subtitle.sc.new-ac {
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}   
+ 
+.subtitle.sc.new-ac.small-size {
+    font-size: 12px;
+    font-weight: 200;
+}
+.fridage-color.accolor {
+    height: 20px;
+}
     
+.subtitle.sc {
+    font-size: 14px;
+} 
+      
+.subtitle.sc.dt {
+ font-weight: 400;
+margin-top: 5px;
+    margin-bottom: 5px;
+}
+.subtitle.dc {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}    
+.text-in-between.dc {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}  
+.subtitle.sc.new-ac.pink {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
     
-    
-    
+.subtitle.sc.new-ac.small-size.no-border {
+    font-size: 14px;
+}   
+.subtitle.sc.new-ac.dark-bg {
+    font-size: 14px;
+    font-weight: 400;
+}    
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+.subtitle.sc.sc2 {
+    top: 95%;
+    font-weight: 400;
+} 
     
 }
