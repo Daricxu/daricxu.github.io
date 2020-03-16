@@ -7410,10 +7410,8 @@ font-size: 12px;
     font-weight: 400;
 }
 .title.fridge.type {
-    top: 85%;
-    margin-top: 32px;
-    font-size: 9px;
-    font-weight: 200;
+    display: block;
+    display: none;
 }        
 .title.ac {
     top: 22.5%;
@@ -7445,6 +7443,7 @@ font-size: 12px;
     
 .subtitle.sc {
     font-size: 14px;
+    font-weight: 400;
 } 
       
 .subtitle.sc.dt {
@@ -7473,7 +7472,7 @@ margin-top: 5px;
     font-size: 14px;
 }   
 .subtitle.sc.new-ac.dark-bg {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }    
 .subtitle {
@@ -7501,13 +7500,165 @@ margin-top: 5px;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    width: 30%;
+    width: 25%;
 } 
 .full-image-div.acu.acc {
     padding-bottom: 10%;
 }
     
+.cover.dt {
+    padding-top: 10%;
+} 
+
+.subtitle.acp.acc {
+    top: 75%;
+}
+                                              /* Haier Fridge proj */
+.title.fridge {
+    top: 70%;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+}    
+.title.fridge.type._3d_team {
+    top: 70%;
+    margin-top: 37px;
+    font-size: 9px;
+}   
+.title.fridge.year {
+    top: 70%;
+    margin-top: -2px;
+    font-size: 9px;
+    font-weight: 400;
+}   
+.text-in-between.fridge {
+
+    font-size: 12px;
+}   
+.zoom-lens.design-style {
+  width: 15px;
+    margin-top: 0.5%;
+}    
+.text-in-between.style {
+    font-size: 14px;
+    font-weight: 400;
+}   
+.text-in-between.style2.st_2.humanity {
+    font-size: 10px;
+    font-weight: 300;
+}
+.text-in-between.style2.st_4.hp {
+    font-size: 10px;
+    font-weight: 300;
+} 
+.text-in-between.style2.st_5.dy {
+    font-size: 10px;
+    font-weight: 300;
+}  
+.text-in-between.style2.outdoor {
+
+    font-size: 10px;
+    font-weight: 300;
+}  
+.text-in-between.style2.st_3.cla {
+    font-size: 10px;
+    font-weight: 300;
+}  
+  .text-in-between.style2.st_1.humanity {
+    font-size: 10px;
+    font-weight: 300;
+}  
+    .text-in-between.fg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-in-between.sp {
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-in-between.muli {
+text-align: left;
+}
+.text-block-15 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.text-in-between.muli.dark-bg {
+    text-align: left;
+}
+
     
+.zoom-lens.pencil.fridge {
+    width: 20px;
+}
+    
+                                                  /* Haier washer project */  
+.title.hfrl {
+    left: auto;
+    top: 40%;
+    bottom: 20%;
+    width: 40%;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+}    
+ .title.project-discription._2 {
+    left: auto;
+    top: 40%;
+    width: 27%;
+    margin-top: 65px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    color: rgba(0, 0, 0, .6);
+    font-size: 9px;
+    text-align: right;
+}  
+   
+.title.project-discription.haier-major {
+    left: auto;
+    top: 40%;
+    right: 0px;
+    bottom: 20%;
+    width: 40%;
+    margin-top: 78px;
+    padding-right: 5px;
+    text-align: right;
+}    
+  .text-in-between.hw-descr {
+    font-size: 14px;
+    line-height: 20px;
+}
+.text-in-between.pencil.final-design.no-bm {
+    padding-bottom: 3px;
+    
+}   
+.text-in-between.pencil {
+    font-size: 14px;
+    font-weight: 400
+}
+.text-in-between.second.scope {
+    font-size: 12px;
+    font-weight: 300;
+}    
+    
+.text-in-between.second {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-in-between.competitor {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}   
+.zoom-lens.pencil {
+    width: 20px;
+}    
     
     
     
