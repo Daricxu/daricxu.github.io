@@ -7045,17 +7045,17 @@ font-size: 12px;
 .title.ap.ap2 {
     top: 25%;
     margin-top: 57px;
-    font-size: 9px;
+    font-size: 8px;
 }
 .title.ap.ap2.tv-team {
     top: 25%;
     margin-top: 67px;
-    font-size: 9px;
+    font-size: 8px;
 }   
 .title.ap {
     top: 25%;
     margin-top: 35px;
-    font-size: 9px;
+    font-size: 8px;
 } 
 
 .text-in-between.sctvt {
@@ -7182,25 +7182,25 @@ font-size: 12px;
     
                                 /* forklift pj */
 .title.forklifttitle {
-    top: 21%;
+    top: 5%;
     right: 5%;
-    width: 40%;
-    margin-top: 32px;
+    width: 45%;
+    margin-top: 12px;
     font-size: 14px;
     line-height: 20px;
 }
 .title.forklift-year {
-    top: 21%;
+    top: 5%;
     right: 5%;
-    bottom: auto;
-    width: 40%;
+   margin-top: 5px;
+    width: 45%;
     font-size: 9px;
     line-height: 12px;
 }   
     
 .title.forklift-year.ucollege {
-    top: 21%;
-    margin-top: 52px;
+    top: 5%;
+    margin-top: 32px;
     font-size: 9px;
     line-height: 12px;
 }
@@ -7224,8 +7224,7 @@ font-size: 12px;
 font-size: 14px;
 } 
 img {
-    margin-left: auto;
-    margin-right: auto;
+    align-content: center;
 }
 
 .new-text.expertinterview {
@@ -7236,7 +7235,7 @@ img {
 }
 .text-section.questionnaire {
 font-size: 12px;
-    line-height: 16px;
+    line-height: 18px;
 }   
  .new-text.insight {
     line-height: 20px;
@@ -7252,7 +7251,7 @@ font-size: 12px;
 }   
  .text-in-between.requirement {
 font-size: 14px;
-     line-height: 20;
+     line-height: 20px;
 }   
 .text-block-21 {
    font-size: 12px;
@@ -7268,12 +7267,12 @@ font-size: 12px;
     right: 0px;
     display: block;
     width: 40%;
-    height: 25%;
+    height: 20%;
 }    
     
 .text-block-23 {
  left: 0px;
-    top: 40%;
+    top: 30%;
     font-size: 14px;
     line-height: 20px;
 }   
