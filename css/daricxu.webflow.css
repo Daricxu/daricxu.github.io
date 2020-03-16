@@ -6297,7 +6297,7 @@
 
 .works-text.sub {
   left: 0px;
-  top: 40%;
+  top: 55%;
   right: 0px;
   padding-top: 0px;
   padding-bottom: 10px;
@@ -7417,7 +7417,7 @@ font-size: 12px;
 }        
 .title.ac {
     top: 22.5%;
-    margin-top: 28px;
+    margin-top: 33px;
     font-size: 9px;
     font-weight: 200;
 }    
@@ -7450,7 +7450,7 @@ font-size: 12px;
 .subtitle.sc.dt {
  font-weight: 400;
 margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .subtitle.dc {
     font-size: 14px;
@@ -7473,7 +7473,7 @@ margin-top: 5px;
     font-size: 14px;
 }   
 .subtitle.sc.new-ac.dark-bg {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }    
 .subtitle {
@@ -7484,5 +7484,32 @@ margin-top: 5px;
     top: 95%;
     font-weight: 400;
 } 
+.title.fridge.type.ac {
+    top: 22.5%;
+    margin-top: 57px;
+    font-weight: 200;
+    color: #fff;
+}
+.subtitle.sc.new-ac.no-bm {
+    padding-bottom: 0px;
+}   
+    
+.subtitle.acp {
+    top: 35%;
+    right: 2%;
+    bottom: 47%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 30%;
+} 
+.full-image-div.acu.acc {
+    padding-bottom: 10%;
+}
+    
+    
+    
+    
+    
     
 }
