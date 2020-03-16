@@ -7408,6 +7408,7 @@ font-size: 12px;
     top: 22.5%;
     font-size: 14px;
     font-weight: 400;
+    width: 50%
 }
 .title.fridge.type {
     display: block;
@@ -7444,8 +7445,7 @@ font-size: 12px;
 .subtitle.sc {
     font-size: 14px;
     font-weight: 400;
-} 
-      
+}      
 .subtitle.sc.dt {
  font-weight: 400;
 margin-top: 5px;
@@ -7461,13 +7461,13 @@ margin-top: 5px;
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
+    text-align: left;
 }  
 .subtitle.sc.new-ac.pink {
     padding-top: 10px;
     padding-bottom: 5px;
     font-weight: 400;
-}
-    
+} 
 .subtitle.sc.new-ac.small-size.no-border {
     font-size: 14px;
 }   
@@ -7495,7 +7495,7 @@ margin-top: 5px;
     
 .subtitle.acp {
     top: 35%;
-    right: 2%;
+    right: 4%;
     bottom: 47%;
     font-weight: 400;
     font-size: 12px;
@@ -7511,11 +7511,11 @@ margin-top: 5px;
 } 
 
 .subtitle.acp.acc {
-    top: 75%;
+    top: 77%;
 }
                                               /* Haier Fridge proj */
 .title.fridge {
-    top: 70%;
+    top: 75%;
     width: 80%;
     font-size: 14px;
     font-weight: 400;
@@ -7526,8 +7526,8 @@ margin-top: 5px;
     font-size: 9px;
 }   
 .title.fridge.year {
-    top: 70%;
-    margin-top: -2px;
+    top: 75%;
+    margin-top: 2px;
     font-size: 9px;
     font-weight: 400;
 }   
@@ -7580,6 +7580,8 @@ margin-top: 5px;
 }
 .text-in-between.muli {
 text-align: left;
+padding-left: 5px;
+    padding-right: 5px;
 }
 .text-block-15 {
     font-size: 12px;
@@ -7588,19 +7590,29 @@ text-align: left;
 }
 .text-in-between.muli.dark-bg {
     text-align: left;
-}
-
-    
+}  
 .zoom-lens.pencil.fridge {
     width: 20px;
 }
-    
+.text-in-between.fridge:hover {
+    width: 80%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}     
+.full-image-div.fridge {
+    margin-top: 12%;
+}   
+.fridge-style-description {
+    display: block;
+    display: none;
+} 
                                                   /* Haier washer project */  
 .title.hfrl {
     left: auto;
     top: 40%;
     bottom: 20%;
-    width: 40%;
+    width: 50%;
     padding-right: 5px;
     text-align: right;
     font-size: 14px;
@@ -7610,7 +7622,7 @@ text-align: left;
     left: auto;
     top: 40%;
     width: 27%;
-    margin-top: 65px;
+    margin-top: 62px;
     padding-right: 5px;
     padding-bottom: 0px;
     color: rgba(0, 0, 0, .6);
@@ -7623,8 +7635,8 @@ text-align: left;
     top: 40%;
     right: 0px;
     bottom: 20%;
-    width: 40%;
-    margin-top: 78px;
+    width: 50%;
+    margin-top: 72px;
     padding-right: 5px;
     text-align: right;
 }    
@@ -7660,7 +7672,7 @@ text-align: left;
     width: 20px;
 }    
     
-    
+ 
     
     
 }
