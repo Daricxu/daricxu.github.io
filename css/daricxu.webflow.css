@@ -7183,7 +7183,7 @@ font-size: 12px;
                                 /* forklift pj */
 .title.forklifttitle {
     top: 5%;
-    right: 2%;
+    right: 1%;
     width: 45%;
     margin-top: 12px;
     font-size: 14px;
@@ -7192,7 +7192,7 @@ font-size: 12px;
 }
 .title.forklift-year {
     top: 5%;
-    right: 2%;
+    right: 1%;
    margin-top: 5px;
     width: 45%;
     font-size: 8px;
@@ -7202,7 +7202,7 @@ font-size: 12px;
     
 .title.forklift-year.ucollege {
     top: 5%;
-    margin-top: 32px;
+    margin-top: 30px;
     font-size: 8px;
     line-height: 12px;
 }
@@ -7273,7 +7273,7 @@ font-size: 12px;
 }       
 .text-block-23 {
  left: 0px;
-    top: 25%;
+    top: 20%;
     font-size: 14px;
     line-height: 20px;
 }   
@@ -7281,7 +7281,7 @@ font-size: 12px;
                                      /* Samsung air purifier pro */  
 .title.ap.ap2.ac-team {
     top: 25%;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 8px;
 }
 .text-in-between.ssap {
@@ -7294,23 +7294,24 @@ font-size: 12px;
 }    
 .sap-bt {
     font-size: 12px;
-    line-height: 26px;
+    line-height: 16px;
+    top: 10%;
 }    
 .zoom-lens.airpurifier {
     width:15px;
     margin-top: 5px;
 }
 .ssapur {
-    top: 30%;
-    width: 30%;
+    top: 31%;
+    width: 40%;
 }    
 .text-in-between.ssapurt {
-    top: 31%;
-    font-size: 12px;
+    top: 32%;
+    font-size: 14px;
     font-weight: 400;
 }    
 .text-in-between.ssapurt.ssapurt2 {
-    top: 37%;
+    top: 40%;
     font-size: 12px;
     line-height: 16px;
     font-weight: 200;
@@ -7334,11 +7335,62 @@ font-size: 12px;
     font-size: 14px;
 }
     
+.div-block {
+    height: 40px;
+}   
+.div-block._60 {
+    height: 20px;
+}
+.div-block.evaluation {
+    height: 40px;
+    margin-top: 0px;
+}   
     
-    
-    
-    
-    
+                    /*Whirlpool topload washer*/   
+.title.wtl {
+    left: 45%;
+    top: 60%;
+    width: 40%;
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 400;
+}    
+ 
+  .title.wtl.wtpt {
+    left: 45%;
+    top: 60%;
+    margin-top: 52px;
+    color: #6d6e71;
+    font-size: 9px;
+    font-weight: 200;
+}  
+.title.wtl.wyear {
+    left: 45%;
+    top: 60%;
+    margin-top: 18px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.subtitle.wsub.com {
+    font-size: 14px;
+    font-weight: 400;
+} 
+.text-in-between.wtop-load {
+    font-size: 14px;
+    line-height: 20px;
+}
+.subtitle.wsub {
+    position: relative;
+    top: 1%;
+    font-size: 14px;
+    font-weight: 400;
+}  
+.whtlft {
+    font-size: 14px;
+    font-weight: 400;
+
+}  
+  
     
     
 }
