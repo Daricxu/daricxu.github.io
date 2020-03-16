@@ -7336,7 +7336,7 @@ font-size: 12px;
 }
     
 .div-block {
-    height: 40px;
+    height: auto;
 }   
 .div-block._60 {
     height: 20px;
