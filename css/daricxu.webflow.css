@@ -6319,10 +6319,22 @@
   cursor: pointer;
 }
 .new-navi {
-    width: 414px;
+    width: 100%;
     position: fixed;
     max-width: 100%
 }   
+.row-5 {
+  overflow: hidden;
+}
+.row-5.second {
+  overflow: hidden;
+}  
+.div-block-22 {
+  overflow: hidden;
+}   
+    
+    
+    
 /* navigation bar always floating outside of screenview a little bit, unsolved" */ 
     
     

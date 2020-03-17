@@ -1820,13 +1820,31 @@ textarea.w-select {
   font-size: 18px;
   display: none;
   cursor: pointer;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
+    
+w-webflow-badge {
+  overflow: hidden !important;
+}  
+.w-webflow-badge * {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.w-lightbox-container {
+  overflow:hidden;
+}    
+    
+.w-lightbox-strip {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}    
+.w--nav-menu-open {
+  overflow: hidden;
+  min-width: 200px;
+}    
+    
+    
                                         /*  xfood click through demo video */
 
     
