@@ -734,6 +734,8 @@
 
 .cover._80 {
   width: 80%;
+margin-left: auto;
+    margin-right: auto;
 }
 
 .cover._80._70 {
