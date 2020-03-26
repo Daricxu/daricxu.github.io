@@ -7693,6 +7693,72 @@ padding-left: 5px;
     margin-right: auto;
     margin-left: auto;
 }
+                                   /* About me */
+    .text-block-27 {
+    padding-bottom: 10px;
+    font-family: Lora;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+.image-98 {
+    width: 60%;
+}  
+ .about-me-text {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: Muli;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}   
     
+ .text-block-26 {
+  left: 0%;
+  width: 100%;
+  font-family: Muli;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+}   
+ .exph {
+  display: block;
+     display: none;
+}   
+.takeaway-h {
+    display: block;
+    display: none;
+}
+ .exph.exsam {
+    line-height: 18px;
+    text-align: left;
+}   
+  .columns-2 {
+    width: 95%;
+}  
+.columns-3 {
+    width: 95%;
+}
+.exp-row {
+    top: 10%;
+    right: 0px;
+}   
+.exp-haiere {
+    width: 50px;
+    margin-top:0px;
+}
+.image-16 {
+    top: 0px;
+    width: 15px; 
+}  
+    .image-16._01 {
+    top: 5px;
+    width: 12px;
+}
+ .column-3.expe {
+    padding-bottom: 3px;
+}   
     
 }
