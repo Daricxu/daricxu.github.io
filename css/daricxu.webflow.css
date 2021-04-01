@@ -57,6 +57,8 @@
   width: 100%;
 }
 
+
+
 .heading-2 {
   position: static;
   left: 0px;
@@ -119,7 +121,7 @@
   font-family: Muli;
   color: #000;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 20px;
   font-weight: 300;
   text-align: center;
   text-decoration: none;
@@ -160,6 +162,7 @@
   background-color: rgba(0, 0, 0, .02);
   background-image: none;
 }
+
 
 .project-thumbnail-division:hover {
   background-color: #bf1a8d;
@@ -277,7 +280,7 @@
 
 .footertext {
   position: relative;
-  top: 17%;
+  top: 15%;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1139,16 +1142,6 @@ margin-left: auto;
   margin-right: auto;
   margin-left: auto;
   background-color: transparent;
-}
-
-.personal-logo {
-  position: relative;
-  left: auto;
-  top: 0px;
-  right: 0px;
-  z-index: 6;
-  width: 12%;
-  margin-top: 6px;
 }
 
 .text-in-between {
@@ -2217,23 +2210,6 @@ margin-left: auto;
   text-decoration: underline;
 }
 
-.text-block.about {
-  position: static;
-  left: 3%;
-  top: 0px;
-  width: auto;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-bottom: 4px none hsla(0, 0%, 100%, .6);
-  font-size: 14px;
-  font-weight: 300;
-  cursor: pointer;
-}
-
-.text-block.about:hover {
-  border-style: none none solid;
-  color: hsla(0, 0%, 100%, .6);
-}
 
 .text-intro {
   position: absolute;
@@ -3885,14 +3861,15 @@ margin-left: auto;
   text-decoration: none;
 }
 
+                                       /*Navigation bar*/   
+
 .new-navi {
-  width: 100%;
   position: fixed;
   left: 0px;
   top: 0px;
   right: 0px;
   border-bottom: 1px solid hsla(0, 0%, 100%, .6);
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(65, 64, 66, 1.0);
 }
 
 .nav-link-2 {
@@ -3924,6 +3901,49 @@ margin-left: auto;
   border-bottom-style: solid;
   color: hsla(0, 0%, 100%, .6);
 }
+.personal-logo {
+  position: relative;
+  left: auto;
+  top: 0px;
+  right: 0px;
+  z-index: 6;
+  width: 12%;
+  margin-top: 6px;
+}
+                        /*Nav_resume font style*/   
+    
+.text-block.about {
+  position: static;
+  left: 3%;
+  top: 0px;
+  width: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px none hsla(0, 0%, 100%, .6);
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.text-block.about:hover {
+  border-style: none none solid;
+  color: hsla(0, 0%, 100%, .6);
+}
+
+.new-navi {
+    width: 100%;
+    position: fixed;
+    max-width: 100%
+}   
+.row-5 {
+  overflow: hidden;
+}
+.row-5.second {
+  overflow: hidden;
+}  
+.div-block-22 {
+  overflow: hidden;
+}  
 
 .navi-container {
   position: relative;
@@ -5270,6 +5290,7 @@ margin-left: auto;
   margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
+    position: static;
 }
 
 .flex1 {
@@ -6072,6 +6093,9 @@ margin-left: auto;
 .div-block-41 {
   position: relative;
 }
+.blackNavi {
+    margin-top: 45px;
+}
 
 .div-block-42 {
   position: relative;
@@ -6116,6 +6140,9 @@ margin-left: auto;
   text-align: center;
 }
 
+                          /* responsive display adjustment */
+                          /* responsive display adjustment */
+
 @media (max-width: 991px) {
   .title {
     top: 15%;
@@ -6125,13 +6152,15 @@ margin-left: auto;
   }
   .navi-menu {
     color: #fff;
-  }
+  } 
+    
 }
 
 @media (max-width: 767px) {
   .personal-logo {
-    width: 25px;
-    margin-top: 2px;
+    width: 22px;
+    margin-top: 0px;
+      margin-bottom: 2px;
   }
 }
 
@@ -6270,6 +6299,14 @@ margin-left: auto;
  /* responsive display adjustment */
 
 @media only screen and (max-width:700px){
+                                              
+                                                   /* navi bar */
+    .text-block.about {
+  width: auto;
+  padding-top: 7px;
+  font-size: 12px;
+ 
+}   
                                                  /* designer/manger font size */
 .heading-2 {
   font-size: 12px;
@@ -6291,7 +6328,7 @@ margin-left: auto;
   
   width: 54%;
 }  
-    
+   
     
                                  /*My works font style*/    
  .works-text {
@@ -6312,39 +6349,7 @@ margin-left: auto;
   font-size: 12px;
   font-weight: 300;
 }
-    
-                                  /*Nav_resume font style*/   
-    
-    .text-block.about {
-  position: static;
-  left: 4%;
-  top: 0px;
-  width: auto;
-  padding-top: 5px;
-  padding-bottom: auto;
-  font-size: 11px;
-  font-weight: 300;
-  cursor: pointer;
-}
-.new-navi {
-    width: 100%;
-    position: fixed;
-    max-width: 100%
-}   
-.row-5 {
-  overflow: hidden;
-}
-.row-5.second {
-  overflow: hidden;
-}  
-.div-block-22 {
-  overflow: hidden;
-}   
-    
-    
-    
-/* navigation bar always floating outside of screenview a little bit, unsolved" */ 
-    
+     
     
                                  /* small black logo on the top */
     
