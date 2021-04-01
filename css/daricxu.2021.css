@@ -259,13 +259,16 @@ padding-top: 0.8vw;
 }
 .WatchUIcolumn {
     flex: 50%;
-    position: relative;
 }
 .WUImarginRight {
-    margin-right: 2.5vw;
+    margin-right: 1vw;
+    padding-right: 0.5vw;
+    border-right: 1px solid #E6E7E8;
 }
 .WUImarginleft {
-    margin-left: 2.5vw;
+    margin-left: 1vw;
+    padding-left: 0.5vw;
+    border-left: 1px solid #E6E7E8;
 }
 
 .protoRow {
