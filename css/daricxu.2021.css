@@ -117,7 +117,7 @@
 .sectionTitle {
     width: 100%;
   font-family: Muli;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   font-weight: 400;
   color: whitesmoke;
     text-align: center;
@@ -257,15 +257,14 @@ padding-top: 0.8vw;
     width: 80%;
     left: 10%
 }
-.WatchUIcolumn {
+.WatchUIcolumnLeft {
     flex: 50%;
-}
-.WUImarginRight {
     margin-right: 1vw;
     padding-right: 0.5vw;
     border-right: 1px solid #E6E7E8;
 }
-.WUImarginleft {
+.WatchUIcolumnRight {
+    flex: 50%;
     margin-left: 1vw;
     padding-left: 0.5vw;
     border-left: 1px solid #E6E7E8;
