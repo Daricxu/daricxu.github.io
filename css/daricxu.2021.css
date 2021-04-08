@@ -131,7 +131,10 @@
     line-height: 2vw;
     padding-top: 0.8vw;
 }
-
+.sectionPartition {
+    height: 3.5vw; 
+    background-color: #414042;
+}
 .newProjectTitle {
     z-index: 1;
     margin-bottom: 0.1vw;
@@ -344,40 +347,42 @@
     }
     .chaosText.smaller {
         font-size: 2vw;
-        left: 20.4%;
+        left: 21.7%;
     }
     .chaosText.smaller.right {
-        left: 75%;
+        left: 74%;
     }
     .chaosText.smaller.right2 {
         top: 14vw;
-        left: 75.5%;
+        left: 74.5%;
     }
     .chaosText.smaller.right3 {
         top: 16.5vw;
-        left: 70.5%;
+        left: 69.6%;
     }
     .ongoing {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
+        line-height: 2.4vw;
     }
     .newProjectTitle {
         z-index: 1;
-        font-size: 1.5vw;
-        line-height: 2vw;
+        font-size: 1.8vw;
+        line-height: 2.4vw;
     }
     .ongoing.No2 {
-        font-size: 1.4vw;
+        font-size: 1.7vw;
+        line-height: 2.3vw;
         margin-top: 9vw;
     }
     .newProjectTitle.No2 {
-        font-size: 1.4vw;
+        font-size: 1.7vw;
     }
     .ongoing.No3 {
-        font-size: 1.3vw;
+        font-size: 1.7vw;
         margin-top: 9vw;
     }
     .newProjectTitle.No3 {
-        font-size: 1.3vw;
+        font-size: 1.7vw;
     }
     .MEprojectTitleDiv {
         top: 2%;
@@ -387,42 +392,49 @@
         line-height: 2.7vw;
     }
     .MEprojectTitle.smaller {
-        font-size: 1.3vw;
+        font-size: 1.5vw;
     }
     .sectionTitle {
-        font-size: 1.7vw;
+        font-size: 2vw;
         line-height: 2.4vw;
-        padding-top: 0.6vw;
+        padding-top: 1.1vw;
+    }
+    .sectionPartition {
+        height: 5vw; 
+        background-color: #414042;
     }
     .textHeader {
-        font-size: 1.5vw;
-        line-height: 2vw;
+        font-size: 2vw;
+        line-height: 2.7vw;
     }
     .textContent {
-        font-size: 1.5vw;
-        line-height: 1.6;
+        font-size: 2vw;
+        line-height: 2.7vw;
         font-weight: 100;
     }
     .textContentMuli {
-        font-size: 1.5vw;
-        line-height: 2.2vw;
+        font-size: 2vw;
+        line-height: 2.7vw;
+        text-align: left;
     }
     .HIWtextPosition {
-        top: 8vw;
+        top: 7vw;
     }
     .watchUIleftText {
-        font-size: 1.3vw; 
-        line-height: 2.1vw;
+        font-size: 2vw; 
+        line-height: 2.7vw;
         width: 20%;
         text-align: center;
         left: 0; 
+        top: 6%;
     }
     .watchUIrightText { 
-        font-size: 1.3vw; 
-        line-height: 2.1vw;
+        font-size: 2vw; 
+        line-height: 2.7vw;
         width: 20%;
         text-align: center;
         left: 85%;
+        top: 6%;
     }
     .frameClass {
         position: relative; 
