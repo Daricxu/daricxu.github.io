@@ -6303,10 +6303,24 @@ margin-left: auto;
                                                    /* navi bar */
     .text-block.about {
   width: auto;
-  padding-top: 7px;
+  padding-top: 1.2vw;
   font-size: 12px;
  
 }   
+  .footer {
+  position: static;
+ height: 35px;
+}
+.footertext {
+  position: relative;
+  top: 0;
+  padding-top: 8px;
+  font-size: 10px;
+}
+                                                      /* navi bar */
+.blackNavi {
+  margin-top: 28px;
+}
                                                  /* designer/manger font size */
 .heading-2 {
   font-size: 12px;
@@ -6373,6 +6387,9 @@ margin-left: auto;
     line-height: 20px;
 }
    
+blackNavi {
+  margin-top: 15px;
+}
     
                                   /* Aboutme UI/UX font style */
     .text-block-10 {
@@ -6388,7 +6405,8 @@ margin-left: auto;
   padding: 5px 10px;
   font-family: Muli;
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
+  line-height: 16px;
   font-weight: 300;
   text-decoration: none;
   cursor: pointer;
@@ -6605,17 +6623,17 @@ padding-right: 5px;
                                            /* Compact Kitchen Project */
                                                /*cover substitle */
 .title.compact {
-    top: 45%;
+    top: 40%;
     font-size: 18px;
 }
 .title.comp {
     font-size: 10px;
-        top: 45%;
+        top: 40%;
      margin-top: 90px;
 }
 .title.ac.comy {
     font-size: 10px;
-        top: 45%;
+        top: 40%;
     margin-top: 102px;
 }
 .text-in-between.compact-kitchen.black-v {
@@ -7206,7 +7224,7 @@ font-size: 12px;
     right: 1%;
     width: 45%;
     margin-top: 12px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 400;
 }
@@ -7221,9 +7239,9 @@ font-size: 12px;
 }   
     
 .title.forklift-year.ucollege {
-    top: 5%;
+    top: 4%;
     margin-top: 30px;
-    font-size: 8px;
+    font-size: 6px;
     line-height: 12px;
 }
   .new-text-in-between.myrole {
@@ -7424,8 +7442,8 @@ font-size: 12px;
 }        
                      /*whirlpool AC*/
 .title.acname {
-    top: 22.5%;
-    font-size: 14px;
+    top: 26.5%;
+    font-size: 12px;
     font-weight: 400;
     width: 60%;
     line-height: 16px;
@@ -7508,6 +7526,7 @@ margin-top: 5px;
     margin-top: 57px;
     font-weight: 200;
     color: #fff;
+    z-index: 22;
 }
 .subtitle.sc.new-ac.no-bm {
     padding-bottom: 0px;

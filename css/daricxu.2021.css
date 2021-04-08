@@ -1,62 +1,69 @@
 .chaosText {
-  position: absolute;
-  left:0px;
-  top: 7.5vw;
-  z-index: 2;
-  display: block;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Muli;
-  color: #3B3B3C;
-  font-size: 4vw;
-  font-weight: 700;
-  text-align: center;
-}
-.chaosText.smaller{
-  font-family: Bembobookmtpro;
-  font-size: 1.5vw;
-  font-weight: 400;
-    width: auto;
-    top: 11.5vw;
-   left: 24.7%;
-}
-.chaosText.smaller.middle{
-   width: 100%;
-    left: 0;
-    
-}
-.chaosText.smaller.right{
-   left: 72.1%;
+    position: absolute;
+    left: 0px;
+    top: 7.5vw;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Muli;
+    color: #3B3B3C;
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
 }
 
-.chaosText.smaller.left2{
+.chaosText.smaller {
+    font-family: Bembobookmtpro;
+    font-size: 1.5vw;
+    font-weight: 400;
+    width: auto;
+    top: 11.5vw;
+    left: 24.7%;
+}
+
+.chaosText.smaller.middle {
+    width: 100%;
+    left: 0;
+}
+
+.chaosText.smaller.right {
+    left: 72.1%;
+}
+
+.chaosText.smaller.left2 {
     top: 14vw;
 }
-.chaosText.smaller.middle2{
-  width: 100%;
+
+.chaosText.smaller.middle2 {
+    width: 100%;
     top: 14vw;
     left: 0;
 }
-.chaosText.smaller.right2{
+
+.chaosText.smaller.right2 {
     top: 14vw;
     left: 72.4%;
 }
 
-.chaosText.smaller.left3{
+.chaosText.smaller.left3 {
     top: 16.5vw;
 }
-.chaosText.smaller.middle3{
-  width: 100%;
+
+.chaosText.smaller.middle3 {
+    width: 100%;
     top: 16.5vw;
     left: 0;
 }
-.chaosText.smaller.right3{
+
+.chaosText.smaller.right3 {
     top: 16.5vw;
     left: 68.9%;
 }
 
-                   /*Projects In Motion Now*/
+
+/*Projects In Motion Now*/
 
 .section-2021 {
     width: 100%;
@@ -64,20 +71,23 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 45% auto 45%;
+    grid-template-columns: 45% 10% 45%;
 }
+
 .grid-container.No2 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .grid-container.No3 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .grid-item2 {
-   background-color: #EDEDEE;
+    background-color: #EDEDEE;
 }
 
 .ongoing {
@@ -88,85 +98,85 @@
     text-align: center;
     margin-top: 12vw;
     margin-left: 0.2vw;
-    margin-right: 0.2vw; 
+    margin-right: 0.2vw;
 }
+
 .ongoing.No2 {
     font-size: 1.08vw;
-     margin-top: 10vw;
+    margin-top: 10vw;
 }
+
 .ongoing.No3 {
     font-size: 1vw;
     margin-top: 9vw;
 }
 
-
 .coverBorder {
-  border-bottom: 6px solid #E6E7E8;
-  border-top: 6px solid #E6E7E8;
-       
-  
+    border-bottom: 6px solid #E6E7E8;
+    border-top: 6px solid #E6E7E8;
 }
-
 
 .blackBG {
     width: 80%;
-    background-color: rgba(66,65,66,1.0);
+    background-color: rgba(66, 65, 66, 1.0);
 }
 
-                          
 .sectionTitle {
     width: 100%;
-  font-family: Muli;
-  font-size: 1.3vw;
-  font-weight: 400;
-  color: whitesmoke;
+    font-family: Muli;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: whitesmoke;
     text-align: center;
     line-height: 2vw;
-padding-top: 0.8vw;
+    padding-top: 0.8vw;
 }
 
 .newProjectTitle {
-  z-index: 1;
-  margin-bottom: 0.1vw;
-  margin-top: 0.3vw;
-  font-family: Muli;
-  color: #000;
-  font-size: 1.1vw;
-  line-height: 1.2vw;
-  font-weight: 300;
-  text-align: center;
+    z-index: 1;
+    margin-bottom: 0.1vw;
+    margin-top: 0.3vw;
+    font-family: Muli;
+    color: #000;
+    font-size: 1.1vw;
+    line-height: 1.2vw;
+    font-weight: 300;
+    text-align: center;
 }
+
 .newProjectTitle.No2 {
     font-size: 1vw;
-   
 }
+
 .newProjectTitle.No3 {
     font-size: 1vw;
 }
 
 
-            /*Mindful Eating project*/
+/*Mindful Eating project*/
+
 .MEprojectTitleDiv {
-   position: absolute;
+    position: absolute;
     left: 16.5%;
     top: 6%;
-}              
+}
 
 .MEprojectTitle {
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Muli;
-  color: whitesmoke;
-  font-size: 2.4vw;
-  font-weight: 600;
-  text-align: center;
-  line-height: 2.4vw;
-   margin-bottom: 0.0vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Muli;
+    color: whitesmoke;
+    font-size: 2.4vw;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.4vw;
+    margin-bottom: 0.0vw;
 }
+
 .MEprojectTitle.smaller {
- font-size: 1.1vw;
-  font-weight: 200;
-  margin-top: 0;
+    font-size: 1.1vw;
+    font-weight: 200;
+    margin-top: 0;
 }
 
 .OArow {
@@ -177,11 +187,13 @@ padding-top: 0.8vw;
 }
 
 .OAcolumn {
-    flex: 50%; 
+    flex: 50%;
 }
+
 .OAmarginRight {
     margin-right: 1vw;
 }
+
 .OAmarginLeft {
     margin-left: 1vw;
 }
@@ -193,30 +205,35 @@ padding-top: 0.8vw;
     text-align: center;
     line-height: 1.8vw;
 }
+
 .textHeader.topMargin {
     margin-top: 0.5vw;
 }
+
 .textHeader.topMarginBig {
     margin-top: 1.5vw;
 }
+
 .textContent {
     font-family: Bembobookmtpro;
     font-size: 1.1vw;
     line-height: 1.4;
     font-weight: 100;
 }
+
 .textContentMuli {
     font-family: Muli;
     font-size: 1vw;
     font-weight: 300;
 }
+
 .centerAlign {
     text-align: center;
 }
+
 .leftAlign {
     text-align: left;
 }
-
 
 .HIWrow {
     display: flex;
@@ -224,16 +241,18 @@ padding-top: 0.8vw;
     width: 70%;
     left: 15%;
     margin-top: 2vw;
-    
 }
+
 .HIWcolumnBig {
     flex: 25%;
     margin-right: 1vw;
 }
-.HIWcolumnSmall{
+
+.HIWcolumnSmall {
     flex: 25%;
     margin-right: 2vw;
 }
+
 .HIWtextPosition {
     position: relative;
     top: 10vw;
@@ -246,10 +265,11 @@ padding-top: 0.8vw;
     left: 5%;
     margin-bottom: 1vw;
 }
+
 .HIWcolumn2 {
     flex: 25%;
-    margin: 1vw;  
-} 
+    margin: 1vw;
+}
 
 .WatchUIrow {
     display: flex;
@@ -257,12 +277,31 @@ padding-top: 0.8vw;
     width: 80%;
     left: 10%
 }
+
 .WatchUIcolumnLeft {
     flex: 50%;
     margin-right: 1vw;
     padding-right: 0.5vw;
     border-right: 1px solid #E6E7E8;
 }
+
+.watchUIleftText {
+    font-family: Muli; 
+    font-size: 1vw; 
+    font-weight: 300; 
+    position: absolute;
+    top: 12%;
+    left: 3%; 
+}
+.watchUIrightText {
+    font-family: Muli; 
+    font-size: 1.0vw; 
+    font-weight: 300; 
+    position: absolute;
+    top: 12%;
+    left: 85%;
+}
+
 .WatchUIcolumnRight {
     flex: 50%;
     margin-left: 1vw;
@@ -276,20 +315,130 @@ padding-top: 0.8vw;
     width: 80%;
     left: 10%;
 }
+
 .protoColumn {
     flex: 50%;
     position: relative;
     margin: 1vw;
 }
+.frameClass {
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
 .UIsketchRow {
     display: flex;
     position: relative;
     width: 100%;
 }
+
 .UIsketchColumn {
     flex: 33.33%;
     margin: 2px;
 }
 
+@media only screen and (max-width:700px) {
+    .chaosText {
+        font-size: 4.5vw;
+    }
+    .chaosText.smaller {
+        font-size: 2vw;
+        left: 20.4%;
+    }
+    .chaosText.smaller.right {
+        left: 75%;
+    }
+    .chaosText.smaller.right2 {
+        top: 14vw;
+        left: 75.5%;
+    }
+    .chaosText.smaller.right3 {
+        top: 16.5vw;
+        left: 70.5%;
+    }
+    .ongoing {
+        font-size: 1.5vw;
+    }
+    .newProjectTitle {
+        z-index: 1;
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    .ongoing.No2 {
+        font-size: 1.4vw;
+        margin-top: 9vw;
+    }
+    .newProjectTitle.No2 {
+        font-size: 1.4vw;
+    }
+    .ongoing.No3 {
+        font-size: 1.3vw;
+        margin-top: 9vw;
+    }
+    .newProjectTitle.No3 {
+        font-size: 1.3vw;
+    }
+    .MEprojectTitleDiv {
+        top: 2%;
+    }
+    .MEprojectTitle {
+        font-size: 2.7vw;
+        line-height: 2.7vw;
+    }
+    .MEprojectTitle.smaller {
+        font-size: 1.3vw;
+    }
+    .sectionTitle {
+        font-size: 1.7vw;
+        line-height: 2.4vw;
+        padding-top: 0.6vw;
+    }
+    .textHeader {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    .textContent {
+        font-size: 1.5vw;
+        line-height: 1.6;
+        font-weight: 100;
+    }
+    .textContentMuli {
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+    }
+    .HIWtextPosition {
+        top: 8vw;
+    }
+    .watchUIleftText {
+        font-size: 1.3vw; 
+        line-height: 2.1vw;
+        width: 20%;
+        text-align: center;
+        left: 0; 
+    }
+    .watchUIrightText { 
+        font-size: 1.3vw; 
+        line-height: 2.1vw;
+        width: 20%;
+        text-align: center;
+        left: 85%;
+    }
+    .frameClass {
+        position: relative; 
+        width: 100%; 
+        height: 100%;
+    }
+    .protoRow {
+        width: 80%;
+        display: flex;
+        left: 10%;
+        flex-direction: column;
+    }
+    .protoColumn {
+        flex: 100%;
+        position: relative;
+        
+    }
 
-
+}
