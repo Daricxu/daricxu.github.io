@@ -6,7 +6,7 @@
     <title>Daric Xu-Designer and Manager for Industrial Design, User Experience Design</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <!--Three css file -->
+    <!--Three plus one css file -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/webflow.css" rel="stylesheet" type="text/css">
     <link href="css/daricxu.webflow.css" rel="stylesheet" type="text/css">
@@ -37,7 +37,7 @@
 
 <!-- top navigation container -->
 
-<body class="heading">
+<body onload="chaosFunction()" class="heading">
     <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="c912de64-faeb-7677-6782-3f17d0906314" class="new-navi w-nav">
         <div class="navi-container">
             <nav role="navigation" class="w-nav-menu">
@@ -62,119 +62,117 @@
     </div>
 
     <!--Chaos poster -->
-    <div class="section-100">
+    <div id="bigContainer" class="section-100">
         <div class="div-block-41 blackNavi">
-            <img src="images/Chaos_2103.jpeg" srcset="images/Chaos_2103-p-1600.jpeg 1600w, images/Chaos_2103-p-2000.jpeg 2000w, images/Chaos_2103-p-2600.jpeg 2600w, images/Chaos_2103-p-3200.jpeg 3200w" alt="In Chaos lies Opportunity" class="cover">
+            <img src="images/Chaos_2103.jpeg " srcset="images/Chaos_2103-p-1600.jpeg 1600w, images/Chaos_2103-p-2000.jpeg 2000w, images/Chaos_2103-p-2600.jpeg 2600w, images/Chaos_2103-p-3200.jpeg 3200w " alt="In Chaos lies Opportunity " class="cover ">
         </div>
+        <div class="containerL1">
+            <div class="chaosTextContainer ">
+                <div>
+                    <p class="chaosText ">In Chaos Lies Opportunity</p>
+                </div>
+                <div class="smallerContainer">
+                    <p id="minor" class="chaosText smaller top">Minor</p>
+                    <p id="major" class="chaosText smaller middle">Major</p>
+                    <p id="mega" class="chaosText smaller right">Mega</p>
+                    <p id="stretch" class="chaosText smaller left2">Stretch
+                    </p>
+                    <p id="step" class="chaosText smaller middle2 ">Step</p>
+                    <p id="leap" class="chaosText smaller right2">Leap</p>
+                    <p id="evolution" class="chaosText smaller left3 ">Evolution</p>
+                    <p id="disruption" class="chaosText smaller middle3">Disruption</p>
+                    <p id="invention" class="chaosText smaller right3">Invention</p>
+                </div>
+            </div>
 
-        <h3 class="chaosText">In Chaos Lies Opportunity</h3>
-
-        <div>
-            <h3 class="chaosText smaller">Minor</h3>
-            <h3 class="chaosText smaller middle">Major</h3>
-            <h3 class="chaosText smaller right">Mega</h3>
         </div>
-
-        <div>
-            <h3 class="chaosText smaller left2">Stretch</h3>
-            <h3 class="chaosText smaller middle2">Step</h3>
-            <h3 class="chaosText smaller right2">Leap</h3>
-        </div>
-
-        <div>
-            <h3 class="chaosText smaller left3">Evolution</h3>
-            <h3 class="chaosText smaller middle3">Disruption</h3>
-            <h3 class="chaosText smaller right3">Innovation</h3>
-        </div>
-
-    </div>
-    <!-- 
+        <!-- 
      <div style="height: 3vw; border-top: solid; border-color: rgba(0, 0, 0, .07); border-width: 0.7px;"> </div>
     
      What I'm working on now -->
-    <div class="grid-container">
-        <div class="">
+        <div class="grid-container">
             <div class="">
-                <a href="kitchen-management.html" class="link-block-4 w-inline-block"><img src="images/Smallcover_2021.jpg" srcset="images/Smallcover_2021-p-1600.jpg 1600w, images/Smallcover_2021-p-2000.jpg 2000w, images/Smallcover_2021-p-2600.jpg 2600w, images/Smallcover_2021-p-3200.jpg 3200w," alt="Smart Kitchen Assistant"
-                        class="project-cover coverBorder">
-                    <h3 class="newProjectTitle">Smart Kitchen Assistant &amp; Companionship</h3>
-                </a>
+                <div class="">
+                    <a href="kitchen-management.html" class="link-block-4 w-inline-block"><img src="images/Smallcover_2021.jpg" srcset="images/Smallcover_2021-p-1600.jpg 1600w, images/Smallcover_2021-p-2000.jpg 2000w, images/Smallcover_2021-p-2600.jpg 2600w, images/Smallcover_2021-p-3200.jpg 3200w," alt="Smart Kitchen Assistant"
+                            class="project-cover coverBorder">
+                        <h3 class="newProjectTitle">Smart Kitchen Assistant &amp; Companionship</h3>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="grid-item2">
-            <h3 class="ongoing">Projects Working-on</h3>
-        </div>
-        <div class="">
-            <div class="">
-                <a href="motion-nuance.html" class="link-block-4 w-inline-block"><img src="images/SmallcoverMN2021.jpg" srcset="images/SmallcoverMN2021-p-1600.jpg 1600w, images/SmallcoverMN2021-p-2000.jpg 2000w, images/SmallcoverMN2021-p-2600.jpg 2600w, images/SmallcoverMN2021.jpg 3700w" alt="Montion Nuance Startup"
-                        class="project-cover coverBorder">
-                    <h3 class="newProjectTitle">Motion Nuance for Health</h3>
-                </a>
+            <div class="grid-item2">
+                <h3 class="ongoing">Projects Working-on</h3>
             </div>
-        </div>
-    </div>
-
-    <div style="height: 4vw;"> </div>
-
-    <div class="grid-container No2">
-        <div class="">
             <div class="">
-                <a href="ui-ux.html" class="link-block-4 w-inline-block"><img src="images/UXsectioncover.jpg" srcset="images/UXsectioncover-p-1600.jpg 1600w,images/UXsectioncover-p-2000.jpg 2000w, images/UXsectioncover-p-2600.jpg 2600w,images/UXsectioncover.jpg 3200w" alt="" class="project-cover coverBorder">
-                    <h3 class="newProjectTitle No2">UX/UI Design</h3>
-                    <h3 class="newProjectTitle No2">Mind, Data, Connection, and Physical Product</h3>
-                </a>
-            </div>
-        </div>
-        <div class="grid-item2">
-            <h3 class="ongoing No2">Works From 18 Years Design Journey</h3>
-        </div>
-        <div class="">
-            <div class="">
-                <a href="new-id-section.html" class="link-block-4 w-inline-block"><img src="images/IDsectioncover.jpg" srcset="images/IDsectioncover-p-1600.jpg 1600w, images/IDsectioncover-p-2000.jpg 2000w, images/IDsectioncover-p-2600.jpg 2600w, " alt="" class="project-cover coverBorder">
-                    <h3 class="newProjectTitle No2">ID</h3>
-                    <h3 class="newProjectTitle No2">Human and Physical Products</h3>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div style="height: 4vw;">
-
-    </div>
-    <div class="grid-container No3">
-        <div class="">
-            <div class="">
-                <a href="about-me.html" class="link-block-4 w-inline-block"><img src="images/Myself_growth.jpg" srcset="images/Myself_growth-p-1200.jpg 1200w, images/Myself_growth-p-1600.jpg 1600w, images/Myself_growth-p-2000.jpg 2000w, images/Myself_growth.jpg 2600w," alt="" class="project-cover coverBorder">
-                    <h3 class="newProjectTitle No3">Learning On-the-job</h3>
-                </a>
-            </div>
-        </div>
-        <div class="grid-item2">
-            <h3 class="ongoing No3">Myself: Growth, Belief, and Likes</h3>
-        </div>
-        <div class="">
-            <div class="">
-                <a href="practice-and-illustrations.html" class="link-block-4 w-inline-block"><img src="images/Practice.jpg" srcset="images/Practice-p-1200.jpg 1200w, images/Practice-p-1600.jpg 1600w, images/Practice-p-2000.jpg 2000w, images/Practice.jpg 2600w" alt="" class="project-cover coverBorder">
-                    <h3 class="newProjectTitle No3">Practice and Doodling</h3>
-                </a>
+                <div class="">
+                    <a href="motion-nuance.html" class="link-block-4 w-inline-block"><img src="images/SmallcoverMN2021.jpg" srcset="images/SmallcoverMN2021-p-1600.jpg 1600w, images/SmallcoverMN2021-p-2000.jpg 2000w, images/SmallcoverMN2021-p-2600.jpg 2600w, images/SmallcoverMN2021.jpg 3700w" alt="Montion Nuance Startup"
+                            class="project-cover coverBorder">
+                        <h3 class="newProjectTitle">Motion Nuance for Health</h3>
+                    </a>
+                </div>
             </div>
         </div>
 
-    </div>
+        <div style="height: 4vw;"> </div>
 
-
-    <div style="height: 2vw;">
-
-    </div>
-
-    <div>
-        <div class="footer">
-            <div class="footertext">COPYRIGHT©2021 DARIC XU</div>
+        <div class="grid-container No2">
+            <div class="">
+                <div class="">
+                    <a href="ui-ux.html" class="link-block-4 w-inline-block"><img src="images/UXsectioncover.jpg" srcset="images/UXsectioncover-p-1600.jpg 1600w,images/UXsectioncover-p-2000.jpg 2000w, images/UXsectioncover-p-2600.jpg 2600w,images/UXsectioncover.jpg 3200w" alt="" class="project-cover coverBorder">
+                        <h3 class="newProjectTitle No2">UX/UI Design</h3>
+                        <h3 class="newProjectTitle No2">Mind, Data, Connection, and Physical Product</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item2">
+                <h3 class="ongoing No2">Works From 18 Years Design Journey</h3>
+            </div>
+            <div class="">
+                <div class="">
+                    <a href="new-id-section.html" class="link-block-4 w-inline-block"><img src="images/IDsectioncover.jpg" srcset="images/IDsectioncover-p-1600.jpg 1600w, images/IDsectioncover-p-2000.jpg 2000w, images/IDsectioncover-p-2600.jpg 2600w, " alt="" class="project-cover coverBorder">
+                        <h3 class="newProjectTitle No2">ID</h3>
+                        <h3 class="newProjectTitle No2">Human and Physical Products</h3>
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/webflow.js" type="text/javascript"></script>
-    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+        <div style="height: 4vw;">
+
+        </div>
+        <div class="grid-container No3">
+            <div class="">
+                <div class="">
+                    <a href="about-me.html" class="link-block-4 w-inline-block"><img src="images/Myself_growth.jpg" srcset="images/Myself_growth-p-1200.jpg 1200w, images/Myself_growth-p-1600.jpg 1600w, images/Myself_growth-p-2000.jpg 2000w, images/Myself_growth.jpg 2600w," alt="" class="project-cover coverBorder">
+                        <h3 class="newProjectTitle No3">Learning On-the-job</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item2">
+                <h3 class="ongoing No3">Myself: Growth, Belief, and Likes</h3>
+            </div>
+            <div class="">
+                <div class="">
+                    <a href="practice-and-illustrations.html" class="link-block-4 w-inline-block"><img src="images/Practice.jpg" srcset="images/Practice-p-1200.jpg 1200w, images/Practice-p-1600.jpg 1600w, images/Practice-p-2000.jpg 2000w, images/Practice.jpg 2600w" alt="" class="project-cover coverBorder">
+                        <h3 class="newProjectTitle No3">Practice and Doodling</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="height: 2vw;">
+
+        </div>
+
+        <div>
+            <div class="footer">
+                <div class="footertext">COPYRIGHT©2021 DARIC XU</div>
+            </div>
+        </div>
+        <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/webflow.js" type="text/javascript"></script>
+        <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 
 </html>

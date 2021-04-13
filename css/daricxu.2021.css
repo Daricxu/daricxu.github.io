@@ -1,65 +1,94 @@
-.chaosText {
+.section-100 {
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+.containerL1 {
     position: absolute;
-    left: 0px;
+    top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.chaosTextContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+.smallerContainer {
+    height: 10vw;
+    position: relative;
+}
+
+.chaosText {
+    display: inline-block;
     top: 7.5vw;
     z-index: 2;
-    display: block;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
     font-family: Muli;
     color: #3B3B3C;
     font-size: 4vw;
     font-weight: 700;
     text-align: center;
+    margin-top: 10px;
 }
 
 .chaosText.smaller {
     font-family: Bembobookmtpro;
     font-size: 1.5vw;
-    font-weight: 400;
-    width: auto;
-    top: 11.5vw;
-    left: 24.7%;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5vw;
+    position: absolute;
+    transition: 900ms;
+    transition-timing-function: ease-in-out;
+}
+
+.chaosText.smaller.top {
+    top: 10%;
 }
 
 .chaosText.smaller.middle {
-    width: 100%;
-    left: 0;
+    text-align: center;
+    top: 10%;
+    left: 47%;
 }
 
 .chaosText.smaller.right {
-    left: 72.1%;
+    text-align: right;
+    top: 10%;
 }
 
 .chaosText.smaller.left2 {
-    top: 14vw;
+    text-align: left;
+    top: 43%;
 }
 
 .chaosText.smaller.middle2 {
-    width: 100%;
-    top: 14vw;
-    left: 0;
+    text-align: center;
+    top: 43%;
+    left: 48%;
 }
 
 .chaosText.smaller.right2 {
-    top: 14vw;
-    left: 72.4%;
+    text-align: right;
+    top: 43%;
 }
 
 .chaosText.smaller.left3 {
-    top: 16.5vw;
+    text-align: left;
 }
 
 .chaosText.smaller.middle3 {
-    width: 100%;
-    top: 16.5vw;
-    left: 0;
+    text-align: center;
+    left: 45%;
 }
 
 .chaosText.smaller.right3 {
-    top: 16.5vw;
-    left: 68.9%;
+    text-align: right;
 }
 
 
@@ -131,10 +160,12 @@
     line-height: 2vw;
     padding-top: 0.8vw;
 }
+
 .sectionPartition {
-    height: 3.5vw; 
+    height: 3.5vw;
     background-color: #414042;
 }
+
 .newProjectTitle {
     z-index: 1;
     margin-bottom: 0.1vw;
@@ -289,17 +320,18 @@
 }
 
 .watchUIleftText {
-    font-family: Muli; 
-    font-size: 1vw; 
-    font-weight: 300; 
+    font-family: Muli;
+    font-size: 1vw;
+    font-weight: 300;
     position: absolute;
     top: 12%;
-    left: 3%; 
+    left: 3%;
 }
+
 .watchUIrightText {
-    font-family: Muli; 
-    font-size: 1.0vw; 
-    font-weight: 300; 
+    font-family: Muli;
+    font-size: 1.0vw;
+    font-weight: 300;
     position: absolute;
     top: 12%;
     left: 85%;
@@ -324,9 +356,10 @@
     position: relative;
     margin: 1vw;
 }
+
 .frameClass {
-    position: relative; 
-    width: 100%; 
+    position: relative;
+    width: 100%;
     height: 100%;
 }
 
@@ -400,7 +433,7 @@
         padding-top: 1.1vw;
     }
     .sectionPartition {
-        height: 5vw; 
+        height: 5vw;
         background-color: #414042;
     }
     .textHeader {
@@ -421,15 +454,15 @@
         top: 7vw;
     }
     .watchUIleftText {
-        font-size: 2vw; 
+        font-size: 2vw;
         line-height: 2.7vw;
         width: 20%;
         text-align: center;
-        left: 0; 
+        left: 0;
         top: 6%;
     }
-    .watchUIrightText { 
-        font-size: 2vw; 
+    .watchUIrightText {
+        font-size: 2vw;
         line-height: 2.7vw;
         width: 20%;
         text-align: center;
@@ -437,8 +470,8 @@
         top: 6%;
     }
     .frameClass {
-        position: relative; 
-        width: 100%; 
+        position: relative;
+        width: 100%;
         height: 100%;
     }
     .protoRow {
@@ -450,7 +483,5 @@
     .protoColumn {
         flex: 100%;
         position: relative;
-        
     }
-
 }
