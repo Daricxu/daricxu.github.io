@@ -6143,7 +6143,7 @@ margin-left: auto;
                           /* responsive display adjustment */
                           /* responsive display adjustment */
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .title {
     top: 15%;
   }
@@ -6298,36 +6298,32 @@ margin-left: auto;
 
  /* responsive display adjustment */
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:767px){
                                               
                                                    /* navi bar */
-    .text-block.about {
+.text-block.about {
   width: auto;
   padding-top: 1.2vw;
-  font-size: 12px;
- 
-}   
-  .footer {
+  font-size: 12px;}   
+
+.footer {
   position: static;
- height: 35px;
-}
+  height: 35px;}
+
 .footertext {
   position: relative;
   top: 0;
   padding-top: 8px;
-  font-size: 10px;
-}
+  font-size: 10px;}
                                                       /* navi bar */
 .blackNavi {
-  margin-top: 28px;
-}
+  margin-top: 28px;}
                                                  /* designer/manger font size */
 .heading-2 {
   font-size: 12px;
   line-height: 150%;
   font-weight: 600;
-  text-align: center;
-}
+  text-align: center;}
 
 .heading-2.designner {
   margin-bottom: 0px;
@@ -6335,24 +6331,21 @@ margin-left: auto;
   font-weight: 400;
 }
     
-    .logo-group {
-  width: 52%;
-}
+.logo-group {
+  width: 52%;}
+
 .logo-groupux {
-  
-  width: 54%;
-}  
+  width: 54%;}  
    
     
                                  /*My works font style*/    
- .works-text {
+.works-text {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 0px;
   font-size: 12px;
   font-weight: 600;
-  text-align: center;
-}
+  text-align: center;}
 
 .works-text.sub {
   left: 0px;
@@ -6361,13 +6354,12 @@ margin-left: auto;
   padding-top: 0px;
   padding-bottom: 10px;
   font-size: 12px;
-  font-weight: 300;
-}
+  font-weight: 300;}
      
     
                                  /* small black logo on the top */
     
-    .gray-logo {
+  .gray-logo {
   position: absolute;
   z-index: 5;
   display: block;
@@ -6377,31 +6369,24 @@ margin-left: auto;
   margin-right: auto;
   margin-left:auto;
   opacity: 0;
-  cursor: pointer;
-}
+  cursor: pointer;}
     
-    .works-text.sub._3r {
+.works-text.sub._3r {
     margin-top: 13px;
     margin-bottom: 7px;
     font-size: 14px;
-    line-height: 20px;
-}
-   
-blackNavi {
-  margin-top: 15px;
-}
+    line-height: 20px;}
     
                                   /* Aboutme UI/UX font style */
-    .text-block-10 {
+.text-block-10 {
   font-size: 10px;
   cursor: pointer;
 }
     
-    .text-block-13 {
-  font-size: 10px;
-}
+.text-block-13 {
+  font-size: 10px;}
     
-    .nav-link-2 {
+.nav-link-2 {
   padding: 5px 10px;
   font-family: Muli;
   color: #fff;
@@ -6409,18 +6394,16 @@ blackNavi {
   line-height: 16px;
   font-weight: 300;
   text-decoration: none;
-  cursor: pointer;
-}
+  cursor: pointer;}
     
                                /* Smart Management Proj-ID */
-    .title.elf-title.nobottomm {
+.title.elf-title.nobottomm {
   width: 45%;
   padding-top: 8px;
   padding-bottom: 30px;
-  line-height: 15px
-}   
+  line-height: 15px}   
  
-    .title.elf-title {
+.title.elf-title {
   left: 0px;
   top: auto;
   right: 0px;
@@ -6430,12 +6413,10 @@ blackNavi {
   padding-left: 0px;
   background-color: hsla(0, 8%, 42%, .7);
   color: #fff;
-  font-size: 12px;
-}
+  font-size: 12px;}
 
 .title.elf-title.elf-year {
-  display: none;
-}
+  display: none;}
 
 .title.elf-title.elf-detail {
   margin-top: 33px;
@@ -6443,14 +6424,12 @@ blackNavi {
   background-color: transparent;
   font-size: 9px;
     line-height: 12px;
-  font-weight: 300;
-}
+  font-weight: 300;}
     
- .text-in-between.brownbg.blue-bg {
+.text-in-between.brownbg.blue-bg {
   width: 80%;
   background-color: #cbdec8;
-  font-size: 12px;
-}   
+  font-size: 12px;}   
    
 .text-in-between.brownbg {
   width: 100%;
@@ -6459,8 +6438,7 @@ blackNavi {
   background-color: #746363;
   font-family: Muli;
   font-size: 12px;
-  font-weight: 600;
-}
+  font-weight: 600;}
  
 .text-in-between {
   position: static;
@@ -6471,17 +6449,13 @@ blackNavi {
   font-size: 12px;
   line-height: 16px;
   font-weight: 500;
-  text-align: center;
-}
+  text-align: center;}
    
-    .text-in-between:hover {
+.text-in-between:hover {
     font-size: 14px;
-    line-height: 20px;
-}
+    line-height: 20px;}
     
-    
-    
-    .column-text.sys {
+.column-text.sys {
   position: static;
   display: block;
   margin-right: auto;
@@ -6489,14 +6463,12 @@ blackNavi {
   padding-top: 10px;
   color: #000;
   text-align: center;
-  font-size: 10px;    
-}
+  font-size: 10px;    }
  
-  .kitchen-sys {
-  width: 70%;
-}  
+.kitchen-sys {
+  width: 70%;}  
     
-  .column-text {
+.column-text {
   position: relative;
   left: auto;
   top: auto;
@@ -6504,50 +6476,42 @@ blackNavi {
   width: auto;
   font-size: 10px;
   font-weight: 300;
-  text-align: center;
-}  
+  text-align: center;}  
     
-   .text-in-between.bluebg.smaller {
-  font-size: 12px;
-}
+.text-in-between.bluebg.smaller {
+  font-size: 12px;}
     
- .text-in-between.purple-bg.small {
+.text-in-between.purple-bg.small {
   font-size: 10px;
      position: absolute;
-     top: 34%;
-}  
+     top: 34%;}  
   
-    .text-in-between.brownbg._80.small-top-margin {
-    font-size: 12px;
-}
-  .text-in-between.dark-brwon-bg.margin.new-bg {
-    font-size: 12px;
-}  
+.text-in-between.brownbg._80.small-top-margin {
+    font-size: 12px;}
+.text-in-between.dark-brwon-bg.margin.new-bg {
+    font-size: 12px;}  
     
- .sub-section-tiltle.purple {
-  font-size: 10px;
-}   
+.sub-section-tiltle.purple {
+  font-size: 10px;}   
     
 .text-in-between.brownbg.blue-bg.top-margin {
-  font-size: 12px;
-}
+  font-size: 12px;}
+
 .introduction.smart {
   font-size: 12px;
-  line-height: 16px;
-}  
+  line-height: 16px;}
+
 .no-margin-row {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-padding-right: 5px;
-} 
+  padding-right: 5px;} 
  
 .introduction.industry-ternd {
     position: absolute;
     left: 0px;
     top: 3%;
-    font-size: 12px; 
-}    
+    font-size: 12px; }    
     
 .introduction.industry-ternd.smaller {
     top: 13%;
@@ -6556,252 +6520,235 @@ padding-right: 5px;
     font-weight: 300;
     text-align: left;
     font-size: 12px;
-    line-height: 18px;
-}    
+    line-height: 18px;}    
 .sub-section-tiltle {
    font-size: 12px;
-    line-height: 16px;
-}    
+    line-height: 16px;}    
     
-    .text-block-25 {
+.text-block-25 {
     font-size: 12px;
     line-height: 16px;
-        padding-top: 20px;
-} 
+        padding-top: 20px;} 
 
 .div-block-31 {
     padding-right: 1.5px;
     padding-left: 1.5px;
-    margin-right: 0px;
-}
+    margin-right: 0px;}
     
 .div-block-31.right-column {
     padding-right: 1.5px;
     padding-left:  1.5px;
-    margin-left: 0px;
-}
+    margin-left: 0px;}
     
- .div-block-33 {
+.div-block-33 {
     padding-right: 1.5px;
-    padding-left: 1.5px;
-}   
- .column-13 {
+    padding-left: 1.5px;}
+
+.column-13 {
     padding-right: 0px;
-    padding-left: 0px;
-}
+    padding-left: 0px;}
+
 .column-13.left-co {
     padding-right: 0px;
-    padding-left: 0px;
-}       
+    padding-left: 0px;}
+
 .image-15.phonenumber {
     display: block;
-    display: none;
-}    
+    display: none;}
+
 .image-15.mail {
     display: block;
-    display: none;
-}
+    display: none;}
     
 .phone {
   display: block;
     display: none;
 }    
     
- .project-title.other-page {
-    color: rgb(0,0,0);
-}   
+.project-title.other-page {
+    color: rgb(0,0,0);}   
     
-    .row.other {
+.row.other {
     width: 80%;
     margin-left: auto;
-    margin-right: auto;
-}
-   
-    .contact {
-    margin-bottom: 10px;
+    margin-right: auto;}
+
+.contact {
+    margin-bottom: 10px;}
+
 }
                                            /* Compact Kitchen Project */
-                                               /*cover substitle */
+                                           /*cover substitle */
+@media only screen and (max-width:767px){
 .title.compact {
     top: 40%;
-    font-size: 18px;
-}
+    font-size: 18px;}
+
 .title.comp {
     font-size: 10px;
         top: 40%;
-     margin-top: 90px;
-}
+     margin-top: 90px;}
+
 .title.ac.comy {
     font-size: 10px;
         top: 40%;
-    margin-top: 102px;
-}
+    margin-top: 102px;}
+
 .text-in-between.compact-kitchen.black-v {
         margin-left: 14%;
          width: 76%;
         text-align: left;
         font-size: 16px;
-        line-height: 20px;
-}
+        line-height: 20px;} 
     
 .text-in-between.compact-kitchen:hover {
     font-size: 16px;
     line-height: 20px;
-    text-align: left;
-}
-    .kw.left {
+    text-align: left;}
+
+.kw.left {
     font-size: 14px;
-    text-align: center;
-}
+    text-align: center;}
+
 .kw {
     font-size: 14px;
-    margin-bottom: 5px;
-}
-    
+    margin-bottom: 5px;}
+
 .kw.right {
-    text-align: center;
-}
-   
+    text-align: center;}
+
 .new-text-in-between.compact-delive {
     font-size: 14px;
     line-height: 20px;
-    font-weight: 300;
-}
+    font-weight: 300;}
+
 .new-text-in-between.compact-delive._100 {
- text-align: left;
-}
+ text-align: left;}
+
 .cover._80 {
     width: 80%;
     margin-left: auto;
-    margin-right: auto;
-}    
+    margin-right: auto;}
+
 .subtitle.comp-ske._11 {
+    font-size: 14px;}
+
+.text-block-7 {
     font-size: 14px;
-}    
-  .text-block-7 {
-    font-size: 14px;
-    line-height: 20px;
-}  
+    line-height: 20px;}
+
 .text-block-7.secondarykitchen {
-    top: 58%;
-}
+    top: 58%;}
     
-  .zoom-lens.comp1 {
-    width: 20px;
-}
-  .subtitle.comp-ske.sketch1 {
-    font-size: 14px;
-}  
-    .cover._90width {
+.zoom-lens.comp1 {
+    width: 20px;}
+
+.subtitle.comp-ske.sketch1 {
+    font-size: 14px;}
+
+.cover._90width {
     width: 80%;
     margin-left: auto;
-    margin-right: auto;
-}
-  .concept-disc {
+    margin-right: auto;}
+.concept-disc {
     font-size: 14px;
     line-height: 20px;
-    text-align: left;
-}  
+    text-align: left;}  
    
-    .cover.stooltable {
+.cover.stooltable {
     width: 80%;
     margin-left: auto;
-    margin-right: auto;
-}
-    .zoom-lens.refine {
-    width: 20px;
-}
+    margin-right: auto;}
+
+.zoom-lens.refine {
+    width: 20px;}
+
 .subtitle.refined {
-    font-size: 14px;
-} 
+    font-size: 14px;} 
 .image-78 {
     width: 25%;
 } 
 .text-in-between.compact-deliver {
-    font-size: 14px; 
-}
+    font-size: 14px; }
+
 .zoom-lens.comp {
-    width: 20px;
-}
-    .subtitle.com-housing {
+    width: 20px;}
+
+.subtitle.com-housing {
     font-size: 14px;
-        top: 3px;
-}
-    .new-text.blacktext.compact-summary {
+        top: 3px;}
+.new-text.blacktext.compact-summary {
     width: 80%;
     font-size: 14px;
-    line-height: 20px;
-}
-    .new-text.blacktext.middle {
+    line-height: 20px;}
+.new-text.blacktext.middle {
     font-size: 12px;
-    text-align: center;
-}   
-    .text-block-2 {
+    text-align: center;}
+
+.text-block-2 {
     font-size: 12px;
-    line-height: 20px;
-}
-    .text-block-4.business {
+    line-height: 20px;}
+
+.text-block-4.business {
     top: 38%;
     font-size: 10px;
     line-height: 14px;
-    font-weight: 400;
-}
-    .text-block-4.persona {
+    font-weight: 400;}
+
+.text-block-4.persona {
     top: 5%;
+    font-size: 14px;}
+.new-text {
     font-size: 14px;
-}
-    .new-text {
-    font-size: 14px;
-    line-height: 24px;
-}
+    line-height: 24px;}
     
-    .new-subtitle {
+.new-subtitle {
     font-size: 14px;
     font-weight: 600;
-    text-align: center;
-}
+    text-align: center;}
+
 .new-text.blacktext.research-findings {
-    width: 80%;
-}
+    width: 80%;}
+
 .full-image.interview {
      width: 95%;
     margin-left: auto;
-     margin-right: auto;    
-}
+     margin-right: auto;    }
+
  .cover.margintb {
     width: 80%;
     padding-top: 20px;
     margin-left: auto;
-    margin-right: auto;
-}   
+    margin-right: auto;}  
+
 .text-block-4.oa {
     font-size: 14px;
-    line-height: 36px;
-} 
+    line-height: 36px;} 
+
 .unordered-list {
     top: 0px;
     right: 0px;
     bottom: 0px;
     width: 42%;
-    z-index: 50;
-}
+    z-index: 50;}
+
 .text-block-5 {
     font-size: 10px;
     padding-top: 1px;
     padding-bottom: 1px;
-    line-height: 11px;
-}
+    line-height: 11px;}
+
 .text-block-6 {
     font-size: 8px;
     line-height: 10px;
-    text-align: left;
-}
+    text-align: left;}
+
 .image-8 {
     width: 10px;
     margin-left: auto;
-    margin-right: auto;    
-}
-    .text-section.comp {
+    margin-right: auto;    }
+
+.text-section.comp {
     width: 100%;
     font-size: 14px;
     line-height: 20px;
@@ -6809,14 +6756,13 @@ padding-right: 5px;
 .concept-disc.blackt {
     text-align: left;
 } 
-    .text-in-between.comphousing {
+.text-in-between.comphousing {
     top: 15px;
-    font-size: 12px;
-   
+    font-size: 12px;}
+    
 }
-    
-    
                                                         /* GE washer project */
+@media only screen and (max-width:767px){
 .text-block-8 {
     font-size: 14px;
     font-weight: 700;
@@ -6868,9 +6814,10 @@ padding-right: 5px;
     z-index: 1;
 }  
 .text-block-8.middle.white {
-    left: 34px;
+    left: 34px;}
 } 
                                       /* Xfood Smart kitchen UX already done with ID part   */ 
+@media only screen and (max-width:767px){
 .title.xfoodname {
     top: 35%;
     margin-top: 60px;
@@ -6939,7 +6886,7 @@ line-height: 20px;
     font-size: 12px;
     line-height: 16px;
 }  
- 
+
 .section-division.bgpink._80-per {
     font-weight: 600;
 }
@@ -7063,15 +7010,13 @@ font-size: 12px;
     line-height: 16px;
 }
 .title.photocopier.detail.detail2 {
-    margin-top: 23px;
-}
-     
+    margin-top: 23px;}
+
                                   /* UI/UX index font style */
-    
+@media only screen and (max-width:767px){                                  
 .introduction {
     font-size: 14px;
-    line-height: 20px;
-}    
+    line-height: 20px;}    
     
                         /* Samsung TV project */
 
@@ -7119,9 +7064,8 @@ font-size: 12px;
     width: 90%;
     font-size: 10px;
     line-height: 12px;
-    text-align: left;
-}  
-    
+    text-align: left;}
+
 .sctv-text-block {
     right: 10%;
     width: 50%;
@@ -7130,9 +7074,8 @@ font-size: 12px;
 }       
 .sctv-text-block.conn {
     display: block;
-    display: none;
-}    
-  
+    display: none;}
+
 .sctv-text-block.conn.limited {
     display: block;
     display: none;
@@ -7148,12 +7091,10 @@ font-size: 12px;
     line-height: 16px;
     padding-bottom: 3px;
 }
-
 .zoom-lens {
     top: 10%;
     width: 20px;
-}    
-    
+}       
 .ssctv-collum {
     top: 35%;
     width: 80%;
@@ -7165,37 +7106,30 @@ font-size: 12px;
     margin-bottom: 15px;
 }
 .familymv {
-    margin-top: 20px;
-}  
-    
+    margin-top: 20px;}
+       
 .text-in-between.instant {
-    font-size: 14px;
-   
-} 
+    font-size: 14px;} 
 .text-in-between.fmv {
     left: 42%;
     right: 0px;
     bottom: 7%;
-    width: 30%;
-}   
+    width: 30%;}   
  .sctvc1 {
     top: 12%;
-    width: 80%;
-}   
+    width: 80%;}   
 .sctv-text-block.conn.stress {
     display: block;
-    display: none;
-} 
+    display: none;} 
+
 .sctv-text-block.user {
-    top: 70%;
-}  
-  
+    top: 70%;}
+
 .text-in-between.sctvr3.darker {
     line-height: 14px;
     padding-bottom: 3px;
-    padding-top: 3px;
-}   
-  
+    padding-top: 3px;}
+
 .text-in-between.sctvr3.conn.darker {
     width: 50%;
     line-height: 14px;
@@ -7724,7 +7658,7 @@ padding-left: 5px;
     margin-left: auto;
 }
                                    /* About me */
-    .text-block-27 {
+.text-block-27 {
     padding-bottom: 10px;
     width: 92%;
     font-size: 14px;
@@ -7791,10 +7725,9 @@ padding-left: 5px;
 .project-title.eh {
     top: 30%;
     background-color: rgba(0, 0, 0, .3);
-    opacity: 1;
-}    
-   b, strong {
-    font-weight: 600;
-} 
+    opacity: 1;}  
+
+b, strong {
+    font-weight: 600;} 
     
 }
