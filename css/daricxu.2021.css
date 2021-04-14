@@ -6,7 +6,7 @@
 
 .containerL1 {
     position: absolute;
-    top: 2%;
+    top: 3%;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -16,7 +16,7 @@
     grid-template-columns: 100%;
     grid-template-rows: auto auto;
     /* background-color: #2196F3; */
-    padding: 10px;
+    padding: 1px;
 }
 
 .smallerContainer {
@@ -33,7 +33,8 @@
     font-size: 4vw;
     font-weight: 700;
     text-align: center;
-    margin-top: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .chaosText.smaller {
@@ -48,34 +49,34 @@
 }
 
 .chaosText.smaller.top {
-    top: 10%;
+    top: 12%;
 }
 
 .chaosText.smaller.middle {
     text-align: center;
-    top: 10%;
+    top: 12%;
     left: 47%;
 }
 
 .chaosText.smaller.right {
     text-align: right;
-    top: 10%;
+    top: 12%;
 }
 
 .chaosText.smaller.left2 {
     text-align: left;
-    top: 43%;
+    top: 45%;
 }
 
 .chaosText.smaller.middle2 {
     text-align: center;
-    top: 43%;
+    top: 45%;
     left: 48%;
 }
 
 .chaosText.smaller.right2 {
     text-align: right;
-    top: 43%;
+    top: 45%;
 }
 
 .chaosText.smaller.left3 {
@@ -117,6 +118,8 @@
 
 .grid-item2 {
     background-color: #EDEDEE;
+    border-right: 2px solid #EDEDEE;
+    border-left: 2px solid #EDEDEE;
 }
 
 .ongoing {
@@ -176,6 +179,11 @@
     line-height: 1.2vw;
     font-weight: 300;
     text-align: center;
+    
+}
+.newProjectTitle:hover {
+    font-weight: 500;
+    transition: 500ms;
 }
 
 .newProjectTitle.No2 {

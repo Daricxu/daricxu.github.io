@@ -46,33 +46,33 @@ function chaosFunction() {
 container.onmouseenter = function() {
     clearInterval(id);
     setTimeout(function() {
-        minor.style = "top:10%; left:0%; transition:2s;";
-        major.style = "top:10%; left:47%; transition:2s;";
-        mega.style = "top:10%; right:0%; transition:2s;";
+        minor.style = "top:12%; left:0%; transition:2s;";
+        major.style = "top:12%; left:47%; transition:2s;";
+        mega.style = "top:12%; right:0%; transition:2s;";
 
-        stretch.style = "top:43%; left:0%; transition:2s;";
-        step.style = "top:43%; left:48%; transition:2s;";
-        leap.style = "top:43%; right:0%; transition:2s;";
+        stretch.style = "top:45%; left:0%; transition:2s;";
+        step.style = "top:45%; left:48%; transition:2s;";
+        leap.style = "top:45%; right:0%; transition:2s;";
 
-        evolution.style = "left:0%; transition:2s;";
-        disruption.style = "left:45%; transition:2s;";
-        invention.style = "right:0%; transition:2s;";
+        evolution.style = "top: 78%; left:0%; transition:2s;";
+        disruption.style = "top: 78%; left:45%; transition:2s;";
+        invention.style = "top: 78%; right:0%; transition:2s;";
     }, 1000);
 }
 document.addEventListener('scroll', function() {
     clearInterval(id);
     setTimeout(function() {
-        minor.style = "top:10%; left:0%; transition:2s;";
-        major.style = "top:10%; left:47%; transition:2s;";
-        mega.style = "top:10%; right:0%; transition:2s;";
+        minor.style = "top:12%; left:0%; transition:2s;";
+        major.style = "top:12%; left:47%; transition:2s;";
+        mega.style = "top:12%; right:0%; transition:2s;";
 
-        stretch.style = "top:43%; left:0%; transition:2s;";
-        step.style = "top:43%; left:48%; transition:2s;";
-        leap.style = "top:43%; right:0%; transition:2s;";
+        stretch.style = "top:45%; left:0%; transition:2s;";
+        step.style = "top:45%; left:48%; transition:2s;";
+        leap.style = "top:45%; right:0%; transition:2s;";
 
-        evolution.style = "left:0%; transition:2s;";
-        disruption.style = "left:45%; transition:2s;";
-        invention.style = "right:0%; transition:2s;";
+        evolution.style = "top: 78%; left:0%; transition:2s;";
+        disruption.style = "top: 78%; left:45%; transition:2s;";
+        invention.style = "top: 78%; right:0%; transition:2s;";
     }, 300);
 });
 
